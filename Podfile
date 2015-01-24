@@ -3,7 +3,7 @@
 
 
 target 'MAFActionSheetController' do
-    pod 'MAFOverlay', :git => 'https://github.com/jedlewison/MAFOverlay.git'
+    pod 'MAFOverlay'
 end
 
 target 'MAFActionSheetControllerTests' do

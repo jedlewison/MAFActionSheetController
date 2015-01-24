@@ -2,16 +2,7 @@ PODS:
   - MAFOverlay (0.0.1)
 
 DEPENDENCIES:
-  - MAFOverlay (from `https://github.com/jedlewison/MAFOverlay.git`)
-
-EXTERNAL SOURCES:
-  MAFOverlay:
-    :git: https://github.com/jedlewison/MAFOverlay.git
-
-CHECKOUT OPTIONS:
-  MAFOverlay:
-    :commit: fb5154d26a4b3b4590718c3ac133d92298eb1daa
-    :git: https://github.com/jedlewison/MAFOverlay.git
+  - MAFOverlay
 
 SPEC CHECKSUMS:
   MAFOverlay: 65152de92a26a4460f7a285391538da25a64c66e

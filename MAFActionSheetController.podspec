@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/jedlewison/MAFActionSheetController.git", :tag => "0.0.1" }
   s.source_files  = "MAFActionSheetController", "MAFActionSheetController/**/*.{h,m}"
-  s.dependency 'MAFOverlay'
+  s.dependency 'MAFOverlay', '~> 0.0.1'
   s.framework = "UIKit"
   s.requires_arc = true
 end

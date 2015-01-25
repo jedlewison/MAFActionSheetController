@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "MAFActionSheetController.h"
-#import "MAFOverlay.h"
 
 @interface ViewController ()
 
@@ -18,24 +17,36 @@
 
 - (IBAction)didPressButton:(id)sender {
 
-    MAFActionSheetController *actionSheetController = [self.storyboard instantiateViewControllerWithIdentifier:@"Action Sheet Controller"];
+    MAFActionSheetController *actionSheetController = [MAFActionSheetController actionSheetController];
 
-    MAFAction *optionAction = [MAFAction optionActionWithTitle:@"Option Action One" detailText:@"Detail" checked:NO handler:nil];
+    MAFActionSheetItem *optionAction = [MAFActionSheetItem actionSheetItemWithTitle:@"Change Background To Orange" detailText:@"Detail" checked:NO handler:^{
+        [UIView animateWithDuration:UINavigationControllerHideShowBarDuration animations:^{
+            self.view.backgroundColor = [UIColor orangeColor];
+        }];
+    }];
 
-    MAFAction *optionAction2 = [MAFAction optionActionWithTitle:@"Option Action Two" detailText:@"Detail" checked:NO handler:nil];
+    MAFActionSheetItem *optionAction2 = [MAFActionSheetItem actionSheetItemWithTitle:@"Do Nothing" detailText:@"Has Custom Background View" checked:YES handler:nil];
+    MAFActionSheetItem *optionAction3 = [MAFActionSheetItem actionSheetItemWithTitle:@"Change Button To Green" detailText:@"Detail" checked:NO handler:^{
+        [UIView animateWithDuration:UINavigationControllerHideShowBarDuration animations:^{
+            [sender setBackgroundColor:[UIColor greenColor]];
+        }];
+    }];
 
-    MAFAction *optionAction3 = [MAFAction optionActionWithTitle:@"Option Action Three" detailText:@"Detail" checked:NO handler:nil];
 
-    [actionSheetController addOptionAction:optionAction];
-    [actionSheetController addOptionAction:optionAction2];
-    [actionSheetController addOptionAction:optionAction3];
-    [self presentViewController:actionSheetController animated:YES completion:nil];
+    UIView *someView = [[UIView alloc] initWithFrame:self.view.bounds];
+    [someView setBackgroundColor:[UIColor yellowColor]];
+    [optionAction2 setCustomBackgroundView:someView];
+    
+    [actionSheetController addItem:optionAction];
+    [actionSheetController addItem:optionAction2];
+    [actionSheetController addItem:optionAction3];
     if ([sender isKindOfClass:[UIBarButtonItem class]]) {
         [actionSheetController.overlayPresentationCoordinator setSourceBarButtonItem:sender];
     } else {
         [actionSheetController.overlayPresentationCoordinator setSourceView:sender];
     }
-    [self presentViewController:actionSheetController animated:YES completion:NULL];
+
+    [self presentViewController:actionSheetController animated:YES completion:nil];
 }
 
 @end

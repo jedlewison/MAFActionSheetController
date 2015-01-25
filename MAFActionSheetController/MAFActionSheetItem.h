@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Magic App Factory. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import UIKit;
 
-@interface MAFAction : NSObject
+@interface MAFActionSheetItem : NSObject
 
 @property (nonatomic, getter=isSelected) BOOL selected;
 
-+ (instancetype)optionActionWithTitle:(NSString *)title
++ (instancetype)actionSheetItemWithTitle:(NSString *)title
                            detailText:(NSString *)detailText
                               checked:(BOOL)checked
                               handler:(void (^)())handler;
@@ -20,7 +20,7 @@
 @property (nonatomic, copy, readonly) NSString *title;
 @property (nonatomic, copy, readonly) NSString *detailText;
 @property (nonatomic, readonly, getter=isChecked) BOOL checked;
-@property (nonatomic, copy, readonly) void (^actionHandler)();
+@property (nonatomic) UIView *customBackgroundView;
 
 
 @end

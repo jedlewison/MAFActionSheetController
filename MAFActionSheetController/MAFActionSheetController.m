@@ -8,29 +8,40 @@
 
 #import "MAFActionSheetController.h"
 #import "MAFActionSheetTableViewCell.h"
-#import <MAFOverlay/MAFOverlayPresentationCoordinator.h>
+
+@interface MAFActionSheetItem (PrivateAccess)
+@property (nonatomic, copy) void (^actionHandler)();
+@property (nonatomic, copy) NSAttributedString *attributedTitle;
+@property (nonatomic, copy) NSAttributedString *attributedDetailText;
+@end
+
 
 @interface MAFActionSheetController () <MAFActionSheetTableViewCellDelegate>
 
-@property (nonatomic) NSMutableArray *mutableOptionActions;
+@property (nonatomic) NSMutableArray *mutableActionSheetItems;
 @property (nonatomic) CGFloat maxTitleLabelWidth;
 @property (nonatomic) CGFloat maxDetailTextLabelWidth;
 @property (nonatomic) NSDictionary *titleLabelAttributes;
 @property (nonatomic) NSDictionary *detailTextlabelAttributes;
 @property (nonatomic) UIEdgeInsets preferredMinimumTitleLabelEdgeInsets;
-//@property (nonatomic) MAFOverlayPresentationCoordinator *overlayPresentationCoordinator;
-
+@property (nonatomic) NSArray *actionSheetItems;
 @end
 
 @implementation MAFActionSheetController
 
-+(instancetype)optionActionSheetController
++(instancetype)actionSheetController
 {
-
+    
     MAFActionSheetController *optionActionSheetController = [[MAFActionSheetController alloc] initWithStyle:UITableViewStylePlain];
     optionActionSheetController.overlayPresentationCoordinator = [MAFOverlayPresentationCoordinator overlayPresentationCoordinatorWithPresentedViewController:optionActionSheetController];
 
     return optionActionSheetController;
+}
+
+-(void)awakeFromNib {
+    [super awakeFromNib];
+    self.overlayPresentationCoordinator = [MAFOverlayPresentationCoordinator overlayPresentationCoordinatorWithPresentedViewController:self];
+    
 }
 
 -(UIModalTransitionStyle)modalTransitionStyle {
@@ -43,46 +54,61 @@
     [self.tableView registerClass:[MAFActionSheetTableViewCell class] forCellReuseIdentifier:@"optionActionCellReuseIdentifier"];
 
     self.tableView.bounces = NO;
-    CGFloat sideEdgeInset = 32.f;
+    CGFloat sideEdgeInset = 8.f;
     self.preferredMinimumTitleLabelEdgeInsets = UIEdgeInsetsMake(0, sideEdgeInset, 0.f, sideEdgeInset);
     self.tableView.allowsMultipleSelection = NO;
     self.tableView.allowsSelection = YES;
     self.tableView.rowHeight = 44.f;
-    self.tableView.separatorInset = UIEdgeInsetsZero;
-    self.tableView.separatorColor = [UIColor clearColor];
     [self.tableView setScrollEnabled:NO];
-    
+
 //    if ([self.tableView respondsToSelector:@selector(setSeparatorEffect:)]) {
 //        UIVibrancyEffect *vibrancyEffect = [UIVibrancyEffect effectForBlurEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleLight]];
 //        [self.tableView setSeparatorEffect:vibrancyEffect];
 //    }
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    self.tableView.separatorColor = [UIColor clearColor];
+
+
     [self.view setBackgroundColor:[UIColor clearColor]];
 }
 
--(NSMutableArray *)mutableOptionActions
+-(NSMutableArray *)mutableActionSheetItems
 {
-    if (!_mutableOptionActions) {
-        _mutableOptionActions = [NSMutableArray array];
+    if (!_mutableActionSheetItems) {
+        _mutableActionSheetItems = [NSMutableArray array];
     }
-    return _mutableOptionActions;
+    return _mutableActionSheetItems;
 }
 
--(void)addOptionAction:(MAFAction *)optionAction
-{
-    [self.mutableOptionActions addObject:optionAction];
-    _optionActions = [NSArray arrayWithArray:self.mutableOptionActions];
-    CGSize labelSize = [optionAction.title sizeWithAttributes:self.titleLabelAttributes];
-    self.maxTitleLabelWidth = MAX(ceil(labelSize.width), self.maxTitleLabelWidth);
 
-    CGSize detailTextLabelSize = [optionAction.detailText sizeWithAttributes:self.detailTextlabelAttributes];
-    self.maxDetailTextLabelWidth = MAX(ceil(detailTextLabelSize.width), self.maxDetailTextLabelWidth);
+-(void)addItem:(MAFActionSheetItem *)actionSheetItem
+{
+    if (self.presentingViewController) {
+        NSLog(@"cannot add item to presented controller");
+        return;
+    }
+    [self.mutableActionSheetItems addObject:actionSheetItem];
+    _actionSheetItems = [NSArray arrayWithArray:self.mutableActionSheetItems];
+    
+    if (actionSheetItem.title) {
+        actionSheetItem.attributedTitle = [[NSAttributedString alloc] initWithString:actionSheetItem.title attributes:self.titleLabelAttributes];
+        self.maxTitleLabelWidth = MAX(ceil(actionSheetItem.attributedTitle.size.width), self.maxTitleLabelWidth);
+    }
+    
+    if (actionSheetItem.detailText) {
+        actionSheetItem.attributedDetailText = [[NSAttributedString alloc] initWithString:actionSheetItem.detailText attributes:self.detailTextlabelAttributes];
+        self.maxDetailTextLabelWidth = MAX(ceil(actionSheetItem.attributedDetailText.size.width), self.maxDetailTextLabelWidth);
+    }
 
 }
 
 -(NSDictionary *)titleLabelAttributes
 {
     if (!_titleLabelAttributes) {
-        _titleLabelAttributes = @{ NSFontAttributeName: [UIFont systemFontOfSize:20]};
+        NSMutableParagraphStyle *paragraphStyle = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+        paragraphStyle.alignment = NSTextAlignmentCenter;
+        _titleLabelAttributes = @{ NSFontAttributeName: [UIFont systemFontOfSize:18],
+                                   NSParagraphStyleAttributeName: paragraphStyle};
     }
     return _titleLabelAttributes;
 }
@@ -90,19 +116,23 @@
 -(NSDictionary *)detailTextlabelAttributes
 {
     if (!_detailTextlabelAttributes) {
-        _detailTextlabelAttributes= @{ NSFontAttributeName: [UIFont systemFontOfSize:12]};
+        NSMutableParagraphStyle *paragraphStyle = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+        paragraphStyle.alignment = NSTextAlignmentCenter;
+        _detailTextlabelAttributes = @{ NSFontAttributeName: [UIFont systemFontOfSize:12],
+                                   NSParagraphStyleAttributeName: paragraphStyle,
+                                   NSForegroundColorAttributeName: [UIColor colorWithWhite:0.3f alpha:1.f]};
     }
     return _detailTextlabelAttributes;
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return [self.optionActions count] > 0;
+    return [self.actionSheetItems count] > 0;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.optionActions count];
+    return [self.actionSheetItems count];
 }
 
 -(CGSize)preferredContentSize
@@ -119,15 +149,12 @@
 {
     MAFActionSheetTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"optionActionCellReuseIdentifier" forIndexPath:indexPath];
     cell.delegate = self;
-    MAFAction *optionAction = [self.optionActions objectAtIndex:indexPath.row];
+    MAFActionSheetItem *actionSheetItem = [self.actionSheetItems objectAtIndex:indexPath.row];
 
-    if ([optionAction isChecked] && ![self disableCheckmarks]) {
-        [cell setAccessoryType:UITableViewCellAccessoryCheckmark];
-    }
-    cell.textLabel.text = optionAction.title;
-    cell.detailTextLabel.text = optionAction.detailText;
-    cell.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
     
+    cell.textLabel.attributedText = actionSheetItem.attributedTitle;
+    cell.detailTextLabel.attributedText = actionSheetItem.attributedDetailText;
+    cell.backgroundView = actionSheetItem.customBackgroundView;
     return cell;
 }
 
@@ -140,15 +167,15 @@
             cell.accessoryType = UITableViewCellAccessoryNone;
         }
     }
-    if (![self disableCheckmarks]) {
-        selectedCell.accessoryType = UITableViewCellAccessoryCheckmark;
-    }
+
+    MAFActionSheetItem *optionAction = [self.actionSheetItems objectAtIndex:indexPath.row];
+    self.actionSheetItems = nil;
+    self.mutableActionSheetItems = nil;
 
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(UINavigationControllerHideShowBarDuration * 3.f/5.f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
 
-        MAFAction *optionAction = [self.optionActions objectAtIndex:indexPath.row];
-
         [self dismissViewControllerAnimated:YES completion:^{
+            
             if (optionAction.actionHandler) {
                 optionAction.actionHandler();
             }

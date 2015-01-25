@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
                    * Provides grain control over animation and layout through layout attributes object and datasource
                    DESC
 
-  s.homepage     = "https://github.com/jedlewison/MAFActionSheetController"
+  s.homepage     = "https://github.com/jedlewison/MAFOverlay"
   s.screenshots  = "https://raw.githubusercontent.com/jedlewison/MAFOverlay/master/OverlayPortrait.png", "https://raw.githubusercontent.com/jedlewison/MAFOverlay/master/OverlayLandscape.png"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Jed Lewison" => "jed@magicappfactory.com" }

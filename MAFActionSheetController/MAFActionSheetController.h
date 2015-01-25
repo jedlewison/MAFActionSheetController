@@ -7,20 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MAFAction.h"
-@class MAFOverlayPresentationCoordinator;
+#import "MAFActionSheetItem.h"
+#import <MAFOverlay/MAFOverlayPresentationCoordinator.h>
 
 @interface MAFActionSheetController : UITableViewController
 
-+ (instancetype)optionActionSheetController;
++ (instancetype)actionSheetController;
 
 @property (nonatomic) MAFOverlayPresentationCoordinator *overlayPresentationCoordinator;
 
-- (void)addOptionAction:(MAFAction *)optionAction;
+- (void)addItem:(MAFActionSheetItem *)actionSheetItem;
 
-@property (nonatomic, readonly) NSArray *optionActions;
+@property (nonatomic, readonly) NSArray *actionSheetItems;
 
-@property (nonatomic) UIColor *cellTextColor;
-
-@property (nonatomic) BOOL disableCheckmarks;
 @end

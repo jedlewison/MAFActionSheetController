@@ -2,19 +2,4 @@
 
 platform :ios, '7.0'
 
-target 'MAFActionSheetController' do
-    pod 'MAFOverlay',  :path => '~/source/shared/MAFOverlay'
-end
-
-target 'MAFActionSheetControllerTests' do
-
-end
-
-target 'MAFActionSheetControllerExample' do
-    pod 'MAFActionSheetController',  :path => '~/source/shared/MAFActionSheetController'
-end
-
-target 'MAFActionSheetControllerExampleTests' do
-
-end
-
+pod 'MAFOverlay'

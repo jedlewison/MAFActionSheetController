@@ -7,56 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C370880FB4A90A3A7C05A0D /* libPods-MAFActionSheetController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8033A9FFB687878365E3B08F /* libPods-MAFActionSheetController.a */; };
-		8575BC451A720C0100A0D6B2 /* libMAFActionSheetController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8575BC391A720C0100A0D6B2 /* libMAFActionSheetController.a */; };
 		8575BC5C1A720C2800A0D6B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC5B1A720C2800A0D6B2 /* main.m */; };
 		8575BC5F1A720C2800A0D6B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC5E1A720C2800A0D6B2 /* AppDelegate.m */; };
 		8575BC621A720C2800A0D6B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC611A720C2800A0D6B2 /* ViewController.m */; };
 		8575BC651A720C2800A0D6B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8575BC631A720C2800A0D6B2 /* Main.storyboard */; };
 		8575BC671A720C2800A0D6B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8575BC661A720C2800A0D6B2 /* Images.xcassets */; };
 		8575BC6A1A720C2800A0D6B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8575BC681A720C2800A0D6B2 /* LaunchScreen.xib */; };
-		8575BC761A720C2800A0D6B2 /* MAFActionSheetControllerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC751A720C2800A0D6B2 /* MAFActionSheetControllerExampleTests.m */; };
-		8575BC871A721BD300A0D6B2 /* MAFActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC821A721BD300A0D6B2 /* MAFActionSheetItem.m */; };
-		8575BC881A721BD300A0D6B2 /* MAFActionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC841A721BD300A0D6B2 /* MAFActionSheetController.m */; };
-		8575BC891A721BD300A0D6B2 /* MAFActionSheetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC861A721BD300A0D6B2 /* MAFActionSheetTableViewCell.m */; };
-		85D996AE1A72A67300B121F1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 85D996AD1A72A67300B121F1 /* README.md */; };
-		A5AFDA55BFB15106DC6DBF53 /* libPods-MAFActionSheetControllerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C23CB13C01D2709A1198AB8 /* libPods-MAFActionSheetControllerExample.a */; };
+		85D996B31A7471BC00B121F1 /* MAFActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC821A721BD300A0D6B2 /* MAFActionSheetItem.m */; };
+		85D996B41A7471BC00B121F1 /* MAFActionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC841A721BD300A0D6B2 /* MAFActionSheetController.m */; };
+		85D996B51A7471BC00B121F1 /* MAFActionSheetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC861A721BD300A0D6B2 /* MAFActionSheetTableViewCell.m */; };
+		85D996B61A7471BD00B121F1 /* MAFActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC821A721BD300A0D6B2 /* MAFActionSheetItem.m */; };
+		85D996B71A7471BD00B121F1 /* MAFActionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC841A721BD300A0D6B2 /* MAFActionSheetController.m */; };
+		85D996B81A7471BD00B121F1 /* MAFActionSheetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC861A721BD300A0D6B2 /* MAFActionSheetTableViewCell.m */; };
+		98CFE63DBB6B684A199C78E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F93E58FAED64EDA3244543 /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8575BC461A720C0100A0D6B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8575BC311A720C0100A0D6B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8575BC381A720C0100A0D6B2;
-			remoteInfo = MAFActionSheetController;
-		};
-		8575BC701A720C2800A0D6B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8575BC311A720C0100A0D6B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8575BC561A720C2800A0D6B2;
-			remoteInfo = MAFActionSheetControllerExample;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		8575BC371A720C0100A0D6B2 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		4C23CB13C01D2709A1198AB8 /* libPods-MAFActionSheetControllerExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAFActionSheetControllerExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D2C9D99D57AC97AC5CCE698 /* Pods-MAFActionSheetController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAFActionSheetController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAFActionSheetController/Pods-MAFActionSheetController.debug.xcconfig"; sourceTree = "<group>"; };
-		8033A9FFB687878365E3B08F /* libPods-MAFActionSheetController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAFActionSheetController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8575BC391A720C0100A0D6B2 /* libMAFActionSheetController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMAFActionSheetController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		18679321E3E64252BE14B0C5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8575BC441A720C0100A0D6B2 /* MAFActionSheetControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAFActionSheetControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8575BC4A1A720C0100A0D6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8575BC571A720C2800A0D6B2 /* MAFActionSheetControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAFActionSheetControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,9 +36,6 @@
 		8575BC641A720C2800A0D6B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8575BC661A720C2800A0D6B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8575BC691A720C2800A0D6B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8575BC6F1A720C2800A0D6B2 /* MAFActionSheetControllerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAFActionSheetControllerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8575BC741A720C2800A0D6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8575BC751A720C2800A0D6B2 /* MAFActionSheetControllerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAFActionSheetControllerExampleTests.m; sourceTree = "<group>"; };
 		8575BC801A720E9C00A0D6B2 /* MAFActionSheetController.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MAFActionSheetController.podspec; sourceTree = "<group>"; };
 		8575BC811A721BD300A0D6B2 /* MAFActionSheetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFActionSheetItem.h; sourceTree = "<group>"; };
 		8575BC821A721BD300A0D6B2 /* MAFActionSheetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFActionSheetItem.m; sourceTree = "<group>"; };
@@ -81,25 +45,15 @@
 		8575BC861A721BD300A0D6B2 /* MAFActionSheetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFActionSheetTableViewCell.m; sourceTree = "<group>"; };
 		85D996AC1A72A5DC00B121F1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		85D996AD1A72A67300B121F1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9F389454CFC21E3F7DE390D0 /* Pods-MAFActionSheetControllerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAFActionSheetControllerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAFActionSheetControllerExample/Pods-MAFActionSheetControllerExample.release.xcconfig"; sourceTree = "<group>"; };
-		B03145A67B9A67A98394CBFC /* Pods-MAFActionSheetController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAFActionSheetController.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAFActionSheetController/Pods-MAFActionSheetController.release.xcconfig"; sourceTree = "<group>"; };
-		D3537355FE090BF7F1D41B38 /* Pods-MAFActionSheetControllerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAFActionSheetControllerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAFActionSheetControllerExample/Pods-MAFActionSheetControllerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		88F93E58FAED64EDA3244543 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0BC6F7AD59D4889AEB5B6E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8575BC361A720C0100A0D6B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C370880FB4A90A3A7C05A0D /* libPods-MAFActionSheetController.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8575BC411A720C0100A0D6B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8575BC451A720C0100A0D6B2 /* libMAFActionSheetController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,14 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5AFDA55BFB15106DC6DBF53 /* libPods-MAFActionSheetControllerExample.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8575BC6C1A720C2800A0D6B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				98CFE63DBB6B684A199C78E4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,19 +71,16 @@
 		1D7D7909890F9EA9AB17C7C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8033A9FFB687878365E3B08F /* libPods-MAFActionSheetController.a */,
-				4C23CB13C01D2709A1198AB8 /* libPods-MAFActionSheetControllerExample.a */,
+				88F93E58FAED64EDA3244543 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7F0EB368C3869CB36B797014 /* Pods */ = {
+		3582DC422D2A1126D33B2EEA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6D2C9D99D57AC97AC5CCE698 /* Pods-MAFActionSheetController.debug.xcconfig */,
-				B03145A67B9A67A98394CBFC /* Pods-MAFActionSheetController.release.xcconfig */,
-				D3537355FE090BF7F1D41B38 /* Pods-MAFActionSheetControllerExample.debug.xcconfig */,
-				9F389454CFC21E3F7DE390D0 /* Pods-MAFActionSheetControllerExample.release.xcconfig */,
+				18679321E3E64252BE14B0C5 /* Pods.debug.xcconfig */,
+				8E0BC6F7AD59D4889AEB5B6E /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -149,21 +93,18 @@
 				8575BC801A720E9C00A0D6B2 /* MAFActionSheetController.podspec */,
 				8575BC3B1A720C0100A0D6B2 /* MAFActionSheetController */,
 				8575BC481A720C0100A0D6B2 /* MAFActionSheetControllerTests */,
-				8575BC581A720C2800A0D6B2 /* MAFActionSheetControllerExample */,
-				8575BC721A720C2800A0D6B2 /* MAFActionSheetControllerExampleTests */,
+				8575BC581A720C2800A0D6B2 /* Example */,
 				8575BC3A1A720C0100A0D6B2 /* Products */,
 				1D7D7909890F9EA9AB17C7C3 /* Frameworks */,
-				7F0EB368C3869CB36B797014 /* Pods */,
+				3582DC422D2A1126D33B2EEA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		8575BC3A1A720C0100A0D6B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8575BC391A720C0100A0D6B2 /* libMAFActionSheetController.a */,
 				8575BC441A720C0100A0D6B2 /* MAFActionSheetControllerTests.xctest */,
 				8575BC571A720C2800A0D6B2 /* MAFActionSheetControllerExample.app */,
-				8575BC6F1A720C2800A0D6B2 /* MAFActionSheetControllerExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,10 +112,10 @@
 		8575BC3B1A720C0100A0D6B2 /* MAFActionSheetController */ = {
 			isa = PBXGroup;
 			children = (
-				8575BC811A721BD300A0D6B2 /* MAFActionSheetItem.h */,
-				8575BC821A721BD300A0D6B2 /* MAFActionSheetItem.m */,
 				8575BC831A721BD300A0D6B2 /* MAFActionSheetController.h */,
 				8575BC841A721BD300A0D6B2 /* MAFActionSheetController.m */,
+				8575BC811A721BD300A0D6B2 /* MAFActionSheetItem.h */,
+				8575BC821A721BD300A0D6B2 /* MAFActionSheetItem.m */,
 				8575BC851A721BD300A0D6B2 /* MAFActionSheetTableViewCell.h */,
 				8575BC861A721BD300A0D6B2 /* MAFActionSheetTableViewCell.m */,
 			);
@@ -197,7 +138,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8575BC581A720C2800A0D6B2 /* MAFActionSheetControllerExample */ = {
+		8575BC581A720C2800A0D6B2 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				8575BC5D1A720C2800A0D6B2 /* AppDelegate.h */,
@@ -209,7 +150,7 @@
 				8575BC681A720C2800A0D6B2 /* LaunchScreen.xib */,
 				8575BC591A720C2800A0D6B2 /* Supporting Files */,
 			);
-			path = MAFActionSheetControllerExample;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		8575BC591A720C2800A0D6B2 /* Supporting Files */ = {
@@ -221,45 +162,9 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8575BC721A720C2800A0D6B2 /* MAFActionSheetControllerExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				8575BC751A720C2800A0D6B2 /* MAFActionSheetControllerExampleTests.m */,
-				8575BC731A720C2800A0D6B2 /* Supporting Files */,
-			);
-			path = MAFActionSheetControllerExampleTests;
-			sourceTree = "<group>";
-		};
-		8575BC731A720C2800A0D6B2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8575BC741A720C2800A0D6B2 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8575BC381A720C0100A0D6B2 /* MAFActionSheetController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8575BC4D1A720C0100A0D6B2 /* Build configuration list for PBXNativeTarget "MAFActionSheetController" */;
-			buildPhases = (
-				3005F087F7FF6B7C7881BA8B /* Check Pods Manifest.lock */,
-				8575BC351A720C0100A0D6B2 /* Sources */,
-				8575BC361A720C0100A0D6B2 /* Frameworks */,
-				8575BC371A720C0100A0D6B2 /* CopyFiles */,
-				2E63BA62FAA8EC7E0D6022DD /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MAFActionSheetController;
-			productName = MAFActionSheetController;
-			productReference = 8575BC391A720C0100A0D6B2 /* libMAFActionSheetController.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		8575BC431A720C0100A0D6B2 /* MAFActionSheetControllerTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8575BC501A720C0100A0D6B2 /* Build configuration list for PBXNativeTarget "MAFActionSheetControllerTests" */;
@@ -271,7 +176,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				8575BC471A720C0100A0D6B2 /* PBXTargetDependency */,
 			);
 			name = MAFActionSheetControllerTests;
 			productName = MAFActionSheetControllerTests;
@@ -297,24 +201,6 @@
 			productReference = 8575BC571A720C2800A0D6B2 /* MAFActionSheetControllerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8575BC6E1A720C2800A0D6B2 /* MAFActionSheetControllerExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8575BC7A1A720C2800A0D6B2 /* Build configuration list for PBXNativeTarget "MAFActionSheetControllerExampleTests" */;
-			buildPhases = (
-				8575BC6B1A720C2800A0D6B2 /* Sources */,
-				8575BC6C1A720C2800A0D6B2 /* Frameworks */,
-				8575BC6D1A720C2800A0D6B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8575BC711A720C2800A0D6B2 /* PBXTargetDependency */,
-			);
-			name = MAFActionSheetControllerExampleTests;
-			productName = MAFActionSheetControllerExampleTests;
-			productReference = 8575BC6F1A720C2800A0D6B2 /* MAFActionSheetControllerExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -324,18 +210,11 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Magic App Factory";
 				TargetAttributes = {
-					8575BC381A720C0100A0D6B2 = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
 					8575BC431A720C0100A0D6B2 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 					8575BC561A720C2800A0D6B2 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					8575BC6E1A720C2800A0D6B2 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 8575BC561A720C2800A0D6B2;
 					};
 				};
 			};
@@ -352,10 +231,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8575BC381A720C0100A0D6B2 /* MAFActionSheetController */,
-				8575BC431A720C0100A0D6B2 /* MAFActionSheetControllerTests */,
 				8575BC561A720C2800A0D6B2 /* MAFActionSheetControllerExample */,
-				8575BC6E1A720C2800A0D6B2 /* MAFActionSheetControllerExampleTests */,
+				8575BC431A720C0100A0D6B2 /* MAFActionSheetControllerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -378,46 +255,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8575BC6D1A720C2800A0D6B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E63BA62FAA8EC7E0D6022DD /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAFActionSheetController/Pods-MAFActionSheetController-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3005F087F7FF6B7C7881BA8B /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		4EBC0EE0AD6146B85A130F5E /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -445,27 +285,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAFActionSheetControllerExample/Pods-MAFActionSheetControllerExample-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8575BC351A720C0100A0D6B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8575BC881A721BD300A0D6B2 /* MAFActionSheetController.m in Sources */,
-				8575BC891A721BD300A0D6B2 /* MAFActionSheetTableViewCell.m in Sources */,
-				85D996AE1A72A67300B121F1 /* README.md in Sources */,
-				8575BC871A721BD300A0D6B2 /* MAFActionSheetItem.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8575BC401A720C0100A0D6B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D996B81A7471BD00B121F1 /* MAFActionSheetTableViewCell.m in Sources */,
+				85D996B71A7471BD00B121F1 /* MAFActionSheetController.m in Sources */,
+				85D996B61A7471BD00B121F1 /* MAFActionSheetItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,34 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D996B51A7471BC00B121F1 /* MAFActionSheetTableViewCell.m in Sources */,
 				8575BC621A720C2800A0D6B2 /* ViewController.m in Sources */,
+				85D996B31A7471BC00B121F1 /* MAFActionSheetItem.m in Sources */,
+				85D996B41A7471BC00B121F1 /* MAFActionSheetController.m in Sources */,
 				8575BC5F1A720C2800A0D6B2 /* AppDelegate.m in Sources */,
 				8575BC5C1A720C2800A0D6B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8575BC6B1A720C2800A0D6B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8575BC761A720C2800A0D6B2 /* MAFActionSheetControllerExampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8575BC471A720C0100A0D6B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8575BC381A720C0100A0D6B2 /* MAFActionSheetController */;
-			targetProxy = 8575BC461A720C0100A0D6B2 /* PBXContainerItemProxy */;
-		};
-		8575BC711A720C2800A0D6B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8575BC561A720C2800A0D6B2 /* MAFActionSheetControllerExample */;
-			targetProxy = 8575BC701A720C2800A0D6B2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8575BC631A720C2800A0D6B2 /* Main.storyboard */ = {
@@ -596,28 +410,6 @@
 			};
 			name = Release;
 		};
-		8575BC4E1A720C0100A0D6B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D2C9D99D57AC97AC5CCE698 /* Pods-MAFActionSheetController.debug.xcconfig */;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		8575BC4F1A720C0100A0D6B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B03145A67B9A67A98394CBFC /* Pods-MAFActionSheetController.release.xcconfig */;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		8575BC511A720C0100A0D6B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -652,7 +444,7 @@
 		};
 		8575BC781A720C2800A0D6B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3537355FE090BF7F1D41B38 /* Pods-MAFActionSheetControllerExample.debug.xcconfig */;
+			baseConfigurationReference = 18679321E3E64252BE14B0C5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -660,7 +452,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MAFActionSheetControllerExample/Info.plist;
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -670,51 +462,15 @@
 		};
 		8575BC791A720C2800A0D6B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F389454CFC21E3F7DE390D0 /* Pods-MAFActionSheetControllerExample.release.xcconfig */;
+			baseConfigurationReference = 8E0BC6F7AD59D4889AEB5B6E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = MAFActionSheetControllerExample/Info.plist;
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		8575BC7B1A720C2800A0D6B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MAFActionSheetControllerExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAFActionSheetControllerExample.app/MAFActionSheetControllerExample";
-			};
-			name = Debug;
-		};
-		8575BC7C1A720C2800A0D6B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MAFActionSheetControllerExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAFActionSheetControllerExample.app/MAFActionSheetControllerExample";
 			};
 			name = Release;
 		};
@@ -726,15 +482,6 @@
 			buildConfigurations = (
 				8575BC4B1A720C0100A0D6B2 /* Debug */,
 				8575BC4C1A720C0100A0D6B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8575BC4D1A720C0100A0D6B2 /* Build configuration list for PBXNativeTarget "MAFActionSheetController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8575BC4E1A720C0100A0D6B2 /* Debug */,
-				8575BC4F1A720C0100A0D6B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -753,15 +500,6 @@
 			buildConfigurations = (
 				8575BC781A720C2800A0D6B2 /* Debug */,
 				8575BC791A720C2800A0D6B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8575BC7A1A720C2800A0D6B2 /* Build configuration list for PBXNativeTarget "MAFActionSheetControllerExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8575BC7B1A720C2800A0D6B2 /* Debug */,
-				8575BC7C1A720C2800A0D6B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -17,6 +17,8 @@
                               checked:(BOOL)checked
                               handler:(void (^)())handler;
 
++ (instancetype)actionSheetItemWithCancellationHandler:(void (^)())cancellationHandler;
+
 @property (nonatomic, copy, readonly) NSString *title;
 @property (nonatomic, copy, readonly) NSString *detailText;
 @property (nonatomic, readonly, getter=isChecked) BOOL checked;

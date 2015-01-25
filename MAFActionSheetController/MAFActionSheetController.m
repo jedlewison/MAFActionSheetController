@@ -11,12 +11,13 @@
 
 @interface MAFActionSheetItem (PrivateAccess)
 @property (nonatomic, copy) void (^actionHandler)();
+@property (nonatomic, copy) void (^cancellationHandler)();
 @property (nonatomic, copy) NSAttributedString *attributedTitle;
 @property (nonatomic, copy) NSAttributedString *attributedDetailText;
 @end
 
 
-@interface MAFActionSheetController () <MAFActionSheetTableViewCellDelegate>
+@interface MAFActionSheetController () <MAFActionSheetTableViewCellDelegate, MAFOverlayPresentationContextTransitioning>
 
 @property (nonatomic) NSMutableArray *mutableActionSheetItems;
 @property (nonatomic) CGFloat maxTitleLabelWidth;
@@ -25,23 +26,26 @@
 @property (nonatomic) NSDictionary *detailTextlabelAttributes;
 @property (nonatomic) UIEdgeInsets preferredMinimumTitleLabelEdgeInsets;
 @property (nonatomic) NSArray *actionSheetItems;
+@property (nonatomic, copy) MAFActionSheetItem *cancellationItem;
+@property (nonatomic) UIView *headerView;
+@property (nonatomic) UIView *footerView;
+
 @end
 
 @implementation MAFActionSheetController
 
-+(instancetype)actionSheetController
++(instancetype)actionSheetControllerWithHeaderView:(UIView *)headerView footerView:(UIView *)footerView
 {
-    
-    MAFActionSheetController *optionActionSheetController = [[MAFActionSheetController alloc] initWithStyle:UITableViewStylePlain];
-    optionActionSheetController.overlayPresentationCoordinator = [MAFOverlayPresentationCoordinator overlayPresentationCoordinatorWithPresentedViewController:optionActionSheetController];
-
-    return optionActionSheetController;
+    MAFActionSheetController *actionSheetController = [[MAFActionSheetController alloc] initWithStyle:UITableViewStylePlain];
+    actionSheetController.headerView = headerView;
+    actionSheetController.footerView = footerView;
+    actionSheetController.overlayPresentationCoordinator = [MAFOverlayPresentationCoordinator overlayPresentationCoordinatorWithPresentedViewController:actionSheetController];
+    return actionSheetController;
 }
 
 -(void)awakeFromNib {
     [super awakeFromNib];
     self.overlayPresentationCoordinator = [MAFOverlayPresentationCoordinator overlayPresentationCoordinatorWithPresentedViewController:self];
-    
 }
 
 -(UIModalTransitionStyle)modalTransitionStyle {
@@ -61,13 +65,8 @@
     self.tableView.rowHeight = 44.f;
     [self.tableView setScrollEnabled:NO];
 
-//    if ([self.tableView respondsToSelector:@selector(setSeparatorEffect:)]) {
-//        UIVibrancyEffect *vibrancyEffect = [UIVibrancyEffect effectForBlurEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleLight]];
-//        [self.tableView setSeparatorEffect:vibrancyEffect];
-//    }
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     self.tableView.separatorColor = [UIColor clearColor];
-
 
     [self.view setBackgroundColor:[UIColor clearColor]];
 }
@@ -87,6 +86,12 @@
         NSLog(@"cannot add item to presented controller");
         return;
     }
+    
+    if (actionSheetItem.cancellationHandler) {
+        self.cancellationItem = actionSheetItem;
+        return;
+    }
+    
     [self.mutableActionSheetItems addObject:actionSheetItem];
     _actionSheetItems = [NSArray arrayWithArray:self.mutableActionSheetItems];
     
@@ -141,7 +146,13 @@
         (MAX(self.maxTitleLabelWidth, self.maxDetailTextLabelWidth)) + self.preferredMinimumTitleLabelEdgeInsets.left + self.preferredMinimumTitleLabelEdgeInsets.right,
         self.tableView.rowHeight * [self.tableView numberOfRowsInSection:0]
     };
+    
+    preferredContentSize.height += self.headerView.frame.size.height;
+    preferredContentSize.height += self.footerView.frame.size.height;
+    
+    if (!self.footerView) {
     preferredContentSize.height -= 1.f/[UIScreen mainScreen].scale; // hide the bottom separator
+    }
     return preferredContentSize;
 }
 
@@ -161,7 +172,6 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [self.view setUserInteractionEnabled:NO];
-    MAFActionSheetTableViewCell *selectedCell = (MAFActionSheetTableViewCell *)[tableView cellForRowAtIndexPath:indexPath];
     for (MAFActionSheetTableViewCell *cell in tableView.visibleCells) {
         if (cell.accessoryType == UITableViewCellAccessoryCheckmark) {
             cell.accessoryType = UITableViewCellAccessoryNone;
@@ -171,15 +181,23 @@
     MAFActionSheetItem *optionAction = [self.actionSheetItems objectAtIndex:indexPath.row];
     self.actionSheetItems = nil;
     self.mutableActionSheetItems = nil;
+    self.cancellationItem = nil;
 
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(UINavigationControllerHideShowBarDuration * 3.f/5.f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
 
         [self dismissViewControllerAnimated:YES completion:^{
-            
+            if (![self shouldPerformSelectedActionBeforeDismissal]) {
+                if (optionAction.actionHandler) {
+                    optionAction.actionHandler();
+                }
+            }
+        }];
+        
+        if ([self shouldPerformSelectedActionBeforeDismissal]) {
             if (optionAction.actionHandler) {
                 optionAction.actionHandler();
             }
-        }];
+        }
     });
 }
 
@@ -195,6 +213,35 @@
         finalFrame.size.width = self.tableView.frame.size.height;
     }
     return finalFrame;
+}
+
+-(void)presentationContextDidDismiss:(id<MAFOverlayPresentationContext>)presentationContext {
+    if ([presentationContext presentedViewController] == self) {
+        // handles the cancelation scenario
+        self.actionSheetItems = nil;
+        self.mutableActionSheetItems = nil;
+        if (self.cancellationItem.cancellationHandler) {
+            MAFActionSheetItem *cancellationItem = self.cancellationItem;
+            self.cancellationItem = nil;
+            cancellationItem.cancellationHandler();
+        }
+    }
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    return self.footerView.frame.size.height;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return self.headerView.frame.size.height;
+}
+
+-(UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
+    return self.footerView;
+}
+
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    return self.headerView;
 }
 
 @end

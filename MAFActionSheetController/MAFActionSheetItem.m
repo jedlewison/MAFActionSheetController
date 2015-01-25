@@ -19,6 +19,8 @@
 @property (nonatomic, readwrite, getter=isChecked) BOOL checked;
 @property (nonatomic, copy) void (^actionHandler)();
 
+@property (nonatomic, copy) void (^cancellationHandler)();
+
 @end
 
 @implementation MAFActionSheetItem
@@ -33,6 +35,12 @@
     return actionSheetItem;
 }
 
++(instancetype)actionSheetItemWithCancellationHandler:(void (^)())cancellationHandler {
+    MAFActionSheetItem *actionSheetItem = [[self alloc] init];
+    actionSheetItem.cancellationHandler = cancellationHandler;
+    return actionSheetItem;
+}
+
 -(instancetype)copy
 {
     MAFActionSheetItem *actionSheetItem = [MAFActionSheetItem actionSheetItemWithTitle:self.title
@@ -40,6 +48,9 @@
                                                 checked:self.checked
                                                 handler:self.actionHandler];
     actionSheetItem.customBackgroundView = self.customBackgroundView;
+    actionSheetItem.cancellationHandler = self.cancellationHandler;
+    actionSheetItem.attributedTitle = self.attributedTitle;
+    actionSheetItem.attributedDetailText = self.attributedDetailText;
     return actionSheetItem;
 }
 

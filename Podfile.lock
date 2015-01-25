@@ -1,20 +1,10 @@
 PODS:
-  - MAFActionSheetController (0.0.1):
-    - MAFOverlay (~> 0.0.1)
-  - MAFOverlay (0.0.2)
+  - MAFOverlay (0.0.3)
 
 DEPENDENCIES:
-  - MAFActionSheetController (from `~/source/shared/MAFActionSheetController`)
-  - MAFOverlay (from `~/source/shared/MAFOverlay`)
-
-EXTERNAL SOURCES:
-  MAFActionSheetController:
-    :path: ~/source/shared/MAFActionSheetController
-  MAFOverlay:
-    :path: ~/source/shared/MAFOverlay
+  - MAFOverlay
 
 SPEC CHECKSUMS:
-  MAFActionSheetController: a2b986a5b4c845241701cba271dcc0098e339ef3
-  MAFOverlay: 551b8d2cb656d2cbb17a9ec10ae0e1dbbe77e7b0
+  MAFOverlay: ccc58d4a7200aa13d11771549e3f0194e1b473e7
 
 COCOAPODS: 0.35.0

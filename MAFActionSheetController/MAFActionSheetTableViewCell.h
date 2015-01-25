@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Magic App Factory. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 @class MAFActionSheetTableViewCell;
 
 @protocol MAFActionSheetTableViewCellDelegate <NSObject>

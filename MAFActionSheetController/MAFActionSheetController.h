@@ -1,28 +1,100 @@
+//  MAFActionSheetController.h
 //
-//  MAFOptionActionCollectionViewController.h
-//  MAFOverlay
+// Copyright (c) 2015 Magic App Factory, LLC
 //
-//  Created by Jed Lewison on 1/4/15.
-//  Copyright (c) 2015 Magic App Factory. All rights reserved.
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
 //
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+
+/**
+ *  `MAFActionSheetController` is
+ */
 
 @import UIKit;
 #import "MAFActionSheetItem.h"
 #import <MAFOverlay/MAFOverlayPresentationCoordinator.h>
 
-@interface MAFActionSheetController : UITableViewController
+/**
+ When the action sheet controller fires the appropriate completion handler.
+ */
+typedef NS_ENUM(NSUInteger, MAFActionSheetItemHandlerTiming){
+    /**
+     Action item handlers will be called after actionSheetController is dismissed MAFActionSheetItemHandlerTimingBeforeStartingDismissal. This is the default behavior.
+     */
+    MAFActionSheetItemHandlerTimingAfterCompletingDismissal,
+    /**
+     Action item handlers called before actionSheetController is dismissed.
+     */
+    MAFActionSheetItemHandlerTimingBeforeStartingDismissal
+};
 
+@interface MAFActionSheetController : UIViewController
+
+/**
+ Creates a new action sheet controller instance with the specified header and footer view.
+
+ Action sheet items must be added to the controller before presenting it. To handle cancellation, add an cancellation item.
+ 
+ The controller's presentation is managed by an overlay presentation coordinator, which it creates on intialization.
+ 
+@param headerView An optional header view that will appear at the top of the action sheet.
+@param footerView An optional footer view that will appear at the top of the action sheet.
+
+Header and footer width will be expanded if necessary. Their initial height will equal the the frame height at the time the action sheet controller is presented. If action sheet must scroll for all action items to be visible, the header and footer will expand as necessary.
+ 
+@return The newly-created action sheet controller.
+ */
 + (instancetype)actionSheetControllerWithHeaderView:(UIView *)headerView footerView:(UIView *)footerView;
 
-@property (nonatomic) MAFOverlayPresentationCoordinator *overlayPresentationCoordinator;
+/**
+The action sheet controller's overlay presentation coordinator, which manages its presentation. Set the coordinator's sourceView, sourceBarButtonItem, or anchor point to control the controller's location when presented.
+ 
+ @see MAFOverlay
+ */
 
+@property (nonatomic, readonly) MAFOverlayPresentationCoordinator *overlayPresentationCoordinator;
+
+/**
+ Add actionSheetItems to the controller. The number and contents of the items determine the size of the controller.
+ 
+ To handle cancellation, create an MAFActionSheetItem with a cancellation handler. The cancellation handler will fire when the user taps outside the presented action sheet controller. Only the last cancellation handler added will be used; all others will be discarded. The cancellation handler will not fire if the action sheet controller is programmatically dismissed.
+ 
+ @param actionSheetItem The item to add.
+ */
 - (void)addItem:(MAFActionSheetItem *)actionSheetItem;
 
-@property (nonatomic, readonly) NSArray *actionSheetItems;
+/**
+ Determines whether actions are fired before or after the action sheet controller is dismissed. Default is after.
+ */
+@property (nonatomic) MAFActionSheetItemHandlerTiming itemHandlerTiming;
 
-@property (nonatomic) BOOL shouldPerformSelectedActionBeforeDismissal;
+/**
+ Attributes dictionary for title label attributed text.
+ */
+@property (nonatomic) NSDictionary *titleLabelAttributes;
 
-@property (nonatomic, readonly) UIView *headerView;
-@property (nonatomic, readonly) UIView *footerView;
+/**
+ Attributes dictionary for detail text label attributed text.
+ */
+@property (nonatomic) NSDictionary *detailTextlabelAttributes;
+
+/**
+ The color separating footer and header content from the items. Set to clear for no color. Default black with 35% opacity.
+ */
+@property (nonatomic) UIColor *footerHeaderSeparatorColor;
 
 @end

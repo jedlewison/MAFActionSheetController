@@ -10,5 +10,5 @@ appledoc \
 --keep-intermediate-files \
 --no-repeat-first-par \
 --no-warn-invalid-crossref \
---output Docs/ \
-MAFActionSheetController/
+--output ~/source/shared/jedlewison.github.io/MAFActionSheetController/ \
+MAFActionSheetController

@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/MAFActionSheetController</TokenIdentifier>
-			<Abstract type="html">MAFActionSheetController is fucked</Abstract>
+			<Abstract type="html">MAFActionSheetController manages action sheet-style view controllers on iOS 7+ using MAFOverlay to present as an overlay from a bar button item or a view.</Abstract>
 			<DeclaredIn>MAFActionSheetController.h</DeclaredIn>
             
 			

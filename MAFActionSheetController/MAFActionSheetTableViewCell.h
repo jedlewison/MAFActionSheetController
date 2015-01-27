@@ -23,12 +23,6 @@
 
 @import UIKit;
 
-/**
- `MAFActionSheetController` uses `MAFActionSheetTableViewCell` to display action items.
- 
- @warning `MAFActionSheetController` is not guaranteed to use a table view to display action items in the future.
- */
-
 @interface MAFActionSheetTableViewCell : UITableViewCell
 
 @end

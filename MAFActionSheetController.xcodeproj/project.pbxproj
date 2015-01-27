@@ -19,6 +19,7 @@
 		85D996B61A7471BD00B121F1 /* MAFActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC821A721BD300A0D6B2 /* MAFActionSheetItem.m */; };
 		85D996B71A7471BD00B121F1 /* MAFActionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC841A721BD300A0D6B2 /* MAFActionSheetController.m */; };
 		85D996B81A7471BD00B121F1 /* MAFActionSheetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575BC861A721BD300A0D6B2 /* MAFActionSheetTableViewCell.m */; };
+		85D9ABA21A77612D00F94774 /* makedocs.sh in Resources */ = {isa = PBXBuildFile; fileRef = 85D9ABA11A77612D00F94774 /* makedocs.sh */; };
 		98CFE63DBB6B684A199C78E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F93E58FAED64EDA3244543 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		8575BC861A721BD300A0D6B2 /* MAFActionSheetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFActionSheetTableViewCell.m; sourceTree = "<group>"; };
 		85D996AC1A72A5DC00B121F1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		85D996AD1A72A67300B121F1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		85D9ABA11A77612D00F94774 /* makedocs.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = makedocs.sh; sourceTree = "<group>"; };
 		88F93E58FAED64EDA3244543 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0BC6F7AD59D4889AEB5B6E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +92,7 @@
 			children = (
 				85D996AC1A72A5DC00B121F1 /* LICENSE */,
 				85D996AD1A72A67300B121F1 /* README.md */,
+				85D9ABA11A77612D00F94774 /* makedocs.sh */,
 				8575BC801A720E9C00A0D6B2 /* MAFActionSheetController.podspec */,
 				8575BC3B1A720C0100A0D6B2 /* MAFActionSheetController */,
 				8575BC481A720C0100A0D6B2 /* MAFActionSheetControllerTests */,
@@ -252,6 +255,7 @@
 				8575BC651A720C2800A0D6B2 /* Main.storyboard in Resources */,
 				8575BC6A1A720C2800A0D6B2 /* LaunchScreen.xib in Resources */,
 				8575BC671A720C2800A0D6B2 /* Images.xcassets in Resources */,
+				85D9ABA21A77612D00F94774 /* makedocs.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,10 +20,6 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-/**
- *  `MAFActionSheetController` is
- */
-
 @import UIKit;
 #import "MAFActionSheetItem.h"
 #import <MAFOverlay/MAFOverlayPresentationCoordinator.h>
@@ -41,6 +37,11 @@ typedef NS_ENUM(NSUInteger, MAFActionSheetItemHandlerTiming){
      */
     MAFActionSheetItemHandlerTimingBeforeStartingDismissal
 };
+
+/**
+ `MAFActionSheetController` is fucked
+ */
+
 
 @interface MAFActionSheetController : UIViewController
 
@@ -62,8 +63,6 @@ Header and footer width will be expanded if necessary. Their initial height will
 
 /**
 The action sheet controller's overlay presentation coordinator, which manages its presentation. Set the coordinator's sourceView, sourceBarButtonItem, or anchor point to control the controller's location when presented.
- 
- @see MAFOverlay
  */
 
 @property (nonatomic, readonly) MAFOverlayPresentationCoordinator *overlayPresentationCoordinator;

@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/jed/Library/Developer/Shared/Documentation/DocSets/com.magicappfactory.MAFActionSheetController.docset
+Time: 2015-01-27 07:10:39 +0000

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>MAFActionSheetController Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">MAFActionSheetController </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Magic App Factory</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/detailTextlabelAttributes">detailTextlabelAttributes</option>
+		
+		<option value="//api/name/footerHeaderSeparatorColor">footerHeaderSeparatorColor</option>
+		
+		<option value="//api/name/itemHandlerTiming">itemHandlerTiming</option>
+		
+		<option value="//api/name/overlayPresentationCoordinator">overlayPresentationCoordinator</option>
+		
+		<option value="//api/name/titleLabelAttributes">titleLabelAttributes</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/actionSheetControllerWithHeaderView:footerView:">+ actionSheetControllerWithHeaderView:footerView:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/addItem:">- addItem:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">MAFActionSheetController Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>UIViewController</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>MAFActionSheetController.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><code>MAFActionSheetController</code> is fucked</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/actionSheetControllerWithHeaderView:footerView:" title="actionSheetControllerWithHeaderView:footerView:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/actionSheetControllerWithHeaderView:footerView:">+&nbsp;actionSheetControllerWithHeaderView:footerView:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates a new action sheet controller instance with the specified header and footer view.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)actionSheetControllerWithHeaderView:(UIView *)<em>headerView</em> footerView:(UIView *)<em>footerView</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>headerView</code></th>
+						<td><p>An optional header view that will appear at the top of the action sheet.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>footerView</code></th>
+						<td><p>An optional footer view that will appear at the top of the action sheet.</p>
+
+<p>Header and footer width will be expanded if necessary. Their initial height will equal the the frame height at the time the action sheet controller is presented. If action sheet must scroll for all action items to be visible, the header and footer will expand as necessary.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The newly-created action sheet controller.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Action sheet items must be added to the controller before presenting it. To handle cancellation, add an cancellation item.</p>
+
+<p>The controller&rsquo;s presentation is managed by an overlay presentation coordinator, which it creates on intialization.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">MAFActionSheetController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/overlayPresentationCoordinator" title="overlayPresentationCoordinator"></a>
+	<h3 class="method-title"><code><a href="#//api/name/overlayPresentationCoordinator">&nbsp;&nbsp;overlayPresentationCoordinator</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The action sheet controller&rsquo;s overlay presentation coordinator, which manages its presentation. Set the coordinator&rsquo;s sourceView, sourceBarButtonItem, or anchor point to control the controller&rsquo;s location when presented.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) MAFOverlayPresentationCoordinator *overlayPresentationCoordinator</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">MAFActionSheetController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addItem:" title="addItem:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addItem:">&ndash;&nbsp;addItem:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Add actionSheetItems to the controller. The number and contents of the items determine the size of the controller.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)addItem:(MAFActionSheetItem *)<em>actionSheetItem</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>actionSheetItem</code></th>
+						<td><p>The item to add.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>To handle cancellation, create an <a href="../Classes/MAFActionSheetItem.html">MAFActionSheetItem</a> with a cancellation handler. The cancellation handler will fire when the user taps outside the presented action sheet controller. Only the last cancellation handler added will be used; all others will be discarded. The cancellation handler will not fire if the action sheet controller is programmatically dismissed.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">MAFActionSheetController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/itemHandlerTiming" title="itemHandlerTiming"></a>
+	<h3 class="method-title"><code><a href="#//api/name/itemHandlerTiming">&nbsp;&nbsp;itemHandlerTiming</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Determines whether actions are fired before or after the action sheet controller is dismissed. Default is after.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) MAFActionSheetItemHandlerTiming itemHandlerTiming</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">MAFActionSheetController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/titleLabelAttributes" title="titleLabelAttributes"></a>
+	<h3 class="method-title"><code><a href="#//api/name/titleLabelAttributes">&nbsp;&nbsp;titleLabelAttributes</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Attributes dictionary for title label attributed text.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) NSDictionary *titleLabelAttributes</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">MAFActionSheetController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/detailTextlabelAttributes" title="detailTextlabelAttributes"></a>
+	<h3 class="method-title"><code><a href="#//api/name/detailTextlabelAttributes">&nbsp;&nbsp;detailTextlabelAttributes</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Attributes dictionary for detail text label attributed text.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) NSDictionary *detailTextlabelAttributes</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">MAFActionSheetController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/footerHeaderSeparatorColor" title="footerHeaderSeparatorColor"></a>
+	<h3 class="method-title"><code><a href="#//api/name/footerHeaderSeparatorColor">&nbsp;&nbsp;footerHeaderSeparatorColor</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The color separating footer and header content from the items. Set to clear for no color. Default black with 35% opacity.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) UIColor *footerHeaderSeparatorColor</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">MAFActionSheetController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Magic App Factory. All rights reserved. Updated: 2015-01-26</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

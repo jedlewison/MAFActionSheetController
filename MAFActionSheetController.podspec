@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MAFActionSheetController"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "Universal customizable action sheet controller for iOS 7+."
 
   s.description  = <<-DESC

@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'MAFActionSheetController', :exclusive => true do
+  pod "MAFActionSheetController", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "MAFActionSheetController", :path => "../"
+
+  
+end

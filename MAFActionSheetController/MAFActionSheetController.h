@@ -63,7 +63,7 @@ typedef NS_ENUM(NSUInteger, MAFActionSheetItemHandlerTiming){
 @param headerView An optional header view that will appear at the top of the action sheet.
 @param footerView An optional footer view that will appear at the top of the action sheet.
 
-Header and footer width will be expanded if necessary. Their initial height will equal the the frame height at the time the action sheet controller is presented. If action sheet must scroll for all action items to be visible, the header and footer will expand as necessary.
+@note Header and footer width will be expanded if necessary. Their initial height will equal the the frame height at the time the action sheet controller is presented. If action sheet must scroll for all action items to be visible, the header and footer will expand as necessary.
  
 @return The newly-created action sheet controller.
  */
@@ -84,24 +84,16 @@ The action sheet controller's overlay presentation coordinator, which manages it
  */
 - (void)addItem:(MAFActionSheetItem *)actionSheetItem;
 
-/**
- Determines whether actions are fired before or after the action sheet controller is dismissed. Default is after.
- */
-@property (nonatomic) MAFActionSheetItemHandlerTiming itemHandlerTiming;
+/** Determines whether actions are fired before or after the action sheet controller is dismissed. Default is after. */
+@property (nonatomic) MAFActionSheetItemHandlerTiming itemHandlerTiming; //
 
-/**
- Attributes dictionary for title label attributed text.
- */
+/** Attributes dictionary for title label attributed text */
 @property (nonatomic) NSDictionary *titleLabelAttributes;
 
-/**
- Attributes dictionary for detail text label attributed text.
- */
+/** Attributes dictionary for detail text label attributed text. */
 @property (nonatomic) NSDictionary *detailTextlabelAttributes;
 
-/**
- The color separating footer and header content from the items. Set to clear for no color. Default black with 35% opacity.
- */
+/** The color separating footer and header content from the items. Set to clear for no color. Default black with 35% opacity. */
 @property (nonatomic) UIColor *footerHeaderSeparatorColor;
 
 @end

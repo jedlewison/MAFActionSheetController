@@ -75,6 +75,7 @@
 }
 
 -(void)viewWillLayoutSubviews {
+    
     [_tableView setScrollEnabled:(self.computedPreferredContentSize.height - self.headerHeight - self.footerHeight) > _tableView.frame.size.height+1.f];
     [_tableView setBounces:[_tableView isScrollEnabled]];
     [self.view sendSubviewToBack:_tableView];
@@ -215,7 +216,7 @@
 }
 
 -(void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
-    [self.overlayPresentationCoordinator presentedOverlayViewController:self willAnimateRotationToInterfaceOrientation:toInterfaceOrientation];
+    [self.overlayPresentationCoordinator performLayoutForRotationToInterfaceOrientation:toInterfaceOrientation];
 }
 
 -(void)presentationContextDidDismiss:(id<MAFOverlayPresentationContext>)presentationContext {

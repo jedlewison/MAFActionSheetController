@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.author             = { "Jed Lewison" => "jed@magicappfactory.com" }
   s.social_media_url   = "http://twitter.com/jedlewison"
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/jedlewison/MAFActionSheetController.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/jedlewison/MAFActionSheetController.git", :tag => "0.0.4" }
   s.source_files  = "MAFActionSheetController", "MAFActionSheetController/*.{h,m}"
   s.dependency 'MAFOverlay'
   s.framework = "UIKit"

@@ -9,10 +9,8 @@
 
 MAFActionSheetController manages action sheet-style view controllers on iOS 7+ using MAFOverlay to present as an overlay from a bar button item or a view.
 
-![Portrait Screenshot](https://raw.githubusercontent.com/jedlewison/MAFActionSheetController/master/MAFActionSheetControlleriPhonePortrait.png "Portrait Screenshot")
-
-![Landscape Screenshot](https://raw.githubusercontent.com/jedlewison/MAFActionSheetController/master/MAFActionSheetControlleriPhoneLandscape.png "Portrait Landscape")
-
+<img src="https://raw.githubusercontent.com/jedlewison/MAFActionSheetController/master/MAFActionSheetControlleriPhonePortrait.png" width=180 height=320>
+<img src="https://raw.githubusercontent.com/jedlewison/MAFActionSheetController/master/MAFActionSheetControlleriPhoneLandscape.png" width=320 height=180>
 ## Details
 
 * Similar to UIAlertController, but with full control over layout and works with iOS 7+.

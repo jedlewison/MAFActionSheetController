@@ -1,10 +1,10 @@
 PODS:
-  - MAFOverlay (0.0.3)
+  - MAFOverlay (0.0.4)
 
 DEPENDENCIES:
   - MAFOverlay
 
 SPEC CHECKSUMS:
-  MAFOverlay: ccc58d4a7200aa13d11771549e3f0194e1b473e7
+  MAFOverlay: d4bb5848ccd1a4a2aa3348981a4a3a97b48a2db3
 
 COCOAPODS: 0.35.0

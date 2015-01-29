@@ -1,0 +1,17 @@
+PODS:
+  - MAFActionSheetController (0.1.0):
+    - MAFOverlay
+  - MAFOverlay (0.1.0.1)
+
+DEPENDENCIES:
+  - MAFActionSheetController (from `../`)
+
+EXTERNAL SOURCES:
+  MAFActionSheetController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MAFActionSheetController: 48245e4ce35ec1a0f890ebc6b2b97fe25dcf02f4
+  MAFOverlay: 41a0a33d9a48d18c85845454e28f3c13265b4bd4
+
+COCOAPODS: 0.35.0

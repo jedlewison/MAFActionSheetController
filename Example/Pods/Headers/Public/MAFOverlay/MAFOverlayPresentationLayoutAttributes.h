@@ -1,0 +1,1 @@
+../../../MAFOverlay/Pod/Classes/MAFOverlayPresentationLayoutAttributes.h

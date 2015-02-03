@@ -10,7 +10,7 @@
 #define COCOAPODS_POD_AVAILABLE_MAFActionSheetController
 #define COCOAPODS_VERSION_MAJOR_MAFActionSheetController 0
 #define COCOAPODS_VERSION_MINOR_MAFActionSheetController 1
-#define COCOAPODS_VERSION_PATCH_MAFActionSheetController 0
+#define COCOAPODS_VERSION_PATCH_MAFActionSheetController 1
 
 // MAFOverlay
 #define COCOAPODS_POD_AVAILABLE_MAFOverlay

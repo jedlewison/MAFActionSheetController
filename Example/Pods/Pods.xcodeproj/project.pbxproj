@@ -10,442 +10,7 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>007D55EB136FB97C9611A327</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>02D5DECF42BF6FB78DD8D32E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0865426E42FF656B2284D14</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0732F7674E32C668501C19B2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>99FB7E9343491F18CFE5338C</string>
-				<string>02D5DECF42BF6FB78DD8D32E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>074511EB73EAEB1788D2C36A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-MAFActionSheetController-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09FB318E00078DA15571F02D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DA1E8B3BE2F3A92D7524A18F</string>
-				<string>7B1478D6BE2424302C151E71</string>
-				<string>79A2681C00F5FC93BFDA3531</string>
-				<string>E981744A59D59B31F4515C69</string>
-				<string>E918E6F6F4D8263B0DE5051F</string>
-				<string>D20D7559190FD06BF569E73D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>102732509D006533917C731C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA2FF4BE44368E2B6E31D0EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10C41C103D6DD716529B16D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MAFOverlayPresentationController.m</string>
-			<key>path</key>
-			<string>Pod/Classes/MAFOverlayPresentationController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114470636078FCA3E7D58359</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-MAFActionSheetController-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>120E0E9FB8BDED32E870A6C8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MAFActionSheetController.h</string>
-			<key>path</key>
-			<string>Pod/Classes/MAFActionSheetController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>12253980DAF8BB4EB81D603D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DF77D313AE05614E97452E08</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>132D16724F642422AA9A81E9</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>82811CCD2D5E241814F1D20F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9DE2D12F90EF5C7AECFE95C6</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-MAFOverlay</string>
-		</dict>
-		<key>133156DB10468BA97C75B0A6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E37A53347EBBEE4256610B66</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1667F1037806C370EDDE04B8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>812FF9405816E10094EEB1D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>17C436D42AD2E21A9D39E309</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D527C2CD6143F920F9E2B01E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1CF4068CC7E0ACEDC9FCBB9B</string>
-				<string>56685136237F86F2758D56F6</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>598B67DACFF3EC29BD470FB1</string>
-				<string>3DEAF36EE67CB9AA750A39CA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MAFActionSheetController</string>
-			<key>productName</key>
-			<string>Pods-MAFActionSheetController</string>
-			<key>productReference</key>
-			<string>8044410DAE7DB5DA97D7CFB1</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>18BDBFDC389666BDB102839E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-MAFOverlay</string>
-			<key>target</key>
-			<string>9DE2D12F90EF5C7AECFE95C6</string>
-			<key>targetProxy</key>
-			<string>132D16724F642422AA9A81E9</string>
-		</dict>
-		<key>19BFA4E5D8948B3A8FC09404</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0865426E42FF656B2284D14</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1AC47184A2C4DEEEC00B6C86</key>
-		<dict>
-			<key>fileRef</key>
-			<string>120E0E9FB8BDED32E870A6C8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1CE7FA399A194B4A291CEE0C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5FE4E1CFC8E0934E12060AC9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1CF4068CC7E0ACEDC9FCBB9B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DB886B4661D01821CB4AA4E5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1D9ED108A47B75A9E19F0869</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MAFOverlayPresentationCoordinator.m</string>
-			<key>path</key>
-			<string>Pod/Classes/MAFOverlayPresentationCoordinator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1F51A18AE4621AB7A6CDA949</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MAFOverlayPresentationDataSource.h</string>
-			<key>path</key>
-			<string>Pod/Classes/MAFOverlayPresentationDataSource.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1F75EDD468C9D65652F69AB9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CEDE9B2351B8A22DAA212FF4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-MAFActionSheetController-MAFActionSheetController/Pods-MAFActionSheetController-MAFActionSheetController-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>288E2A5E909C1CF3D753A60C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1F51A18AE4621AB7A6CDA949</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>28E305E72556C1FC112F0776</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>29217AE5459B7C7A765C3947</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-MAFActionSheetController-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B045670E763B85C9D80F3F2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D9ED108A47B75A9E19F0869</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2C7CB2C16784661EC6A83C2A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MAFActionSheetController-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C9CD6EEFB8B3E760D97D4DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0865426E42FF656B2284D14</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D5D27B36FC2F48D5ABFE0E7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7E1C07883F7FE0288FD53038</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3149B43F8B3A170EBFCDF279</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MAFActionSheetController-MAFActionSheetController.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327EC20A4CAE8042DC6B0ADC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>535C9B80B0E73895A0BB08F6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>347531C068C91D97C081D256</key>
+		<key>02DAD2F898CB22AD54609E7B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -460,34 +25,12 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3598A612A1C5B055E4DE2BCC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1AC47184A2C4DEEEC00B6C86</string>
-				<string>6288808A68B6FE16F6EA6D46</string>
-				<string>D0EE61D5F02BAA7237C5106C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>361BD8BED4B90FEF008FB0AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0865426E42FF656B2284D14</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>37517D2ED0C94E8CB54E8573</key>
+		<key>02DF0A82AEA10C60D45FD785</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>C53722D2CEA78D941DC08974</string>
-				<string>4CFF30471FC005D19FD64179</string>
+				<string>1EA6937A8A254F7FD7CF17FB</string>
+				<string>5B4FCD124D862DE315CDE246</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -496,34 +39,92 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>37A0B2F1D405B1484547AA87</key>
+		<key>04A35416C9C9CDE0F94007D7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AA2FF4BE44368E2B6E31D0EE</string>
+			<string>46654F3B6D83BA113822A583</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>3937847E95EC0C7C9A8CD5A0</key>
+		<key>04AE3248B5B3FB71154ECC27</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
+			<key>fileRef</key>
+			<string>985AD34317C40B1EC00CF06A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>065819455D0E4AF08A91C91C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-MAFActionSheetController-MAFOverlay</string>
+			<key>target</key>
+			<string>FB5EE0B5C80643E814CFCA6D</string>
+			<key>targetProxy</key>
+			<string>A77E400C3C5389B4AFF37029</string>
+		</dict>
+		<key>0A28BA0C07BD442CC9D2336C</key>
+		<dict>
 			<key>includeInIndex</key>
-			<string>0</string>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>libPods-Tests-MAFOverlay.a</string>
+			<string>Pods-Tests-acknowledgements.plist</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>39D74A71DDFB4FE831DD1436</key>
+		<key>0A9D19EFEDC31B8D14E3C3A1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3C5AE58B1EA73C7D590070B2</string>
+			<string>F893B0858C0C80B59BB23A37</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>3C5AE58B1EA73C7D590070B2</key>
+		<key>0B49DA814A5284D4FBB9DD0F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Tests-MAFOverlay</string>
+			<key>target</key>
+			<string>EB703D471FD59CF45543BCF2</string>
+			<key>targetProxy</key>
+			<string>9650A895D27777E40565D0DD</string>
+		</dict>
+		<key>0C729773D3F14B516B6C4A02</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>47C0ADFC80A311EA8877D940</string>
+				<string>8DF7B0086440B64F1170FF46</string>
+				<string>630D899E7FC9550D785712D8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0DCFDD639F9851A4ED3D1AA2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D42C04E156CD0C348199BBA1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0ECDA91B838E3BB45E4E452C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A2AAA71252DE80C4E0C7DE0B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>10B548ED0F3C698BC94E8349</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -531,41 +132,229 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MAFOverlayPresentationLayoutAttributes.m</string>
 			<key>path</key>
-			<string>Pod/Classes/MAFOverlayPresentationLayoutAttributes.m</string>
+			<string>Pods-MAFActionSheetController-MAFActionSheetController-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3CA6C0734A6B46E0DCDD1D4E</key>
+		<key>1133576F51D1BC5DDBC11443</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>02DF0A82AEA10C60D45FD785</string>
+			<key>buildPhases</key>
+			<array>
+				<string>96C4F774EC8A2DFF96781070</string>
+				<string>7237DFD303A69A4071133818</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>3DE52A5ABA5F53A51DF75E9C</string>
+				<string>221BA3659280B395A6374362</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Tests</string>
+			<key>productName</key>
+			<string>Pods-Tests</string>
+			<key>productReference</key>
+			<string>46C88BEA75603A609EBF4122</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>113C3CD5B573C4D5EDD2D8ED</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E5489C28B93CAFAD5B8DF86E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1243C95736D825D185E766AE</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>809606924579B456F028E125</string>
+				<string>9070509B86A019984FDED1A6</string>
+				<string>A410E7A78D133C200DA987B6</string>
+				<string>2A92C6F863190CF83FFFF1E4</string>
+				<string>5A5164030E9604D6AF879F9A</string>
+				<string>7992B3F2CFD5145F9D60F7C9</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>3DEAF36EE67CB9AA750A39CA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-MAFActionSheetController-MAFOverlay</string>
-			<key>target</key>
-			<string>3E645297EBF083D7BF1B6EFE</string>
-			<key>targetProxy</key>
-			<string>DB1DE123A4FAE415F50FA60C</string>
-		</dict>
-		<key>3E3F13799B1D6B73780C7E58</key>
+		<key>129EAA5ED68F90BAF9E9F9F3</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>E07E8EA222160AD93D9ED9C6</string>
+			<string>AE3652CBDFD752B104007550</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Tests-MAFActionSheetController/Pods-Tests-MAFActionSheetController-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>12CDB5F9E82B8D84F2F4569E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>ECBA8E13DE0FE536D4EEFFB4</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>F3EC2EEACD19112A410AA6A9</string>
+			<key>productRefGroup</key>
+			<string>14E8734DA3C0D7E2EAD21D43</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>A90C996589A9ED74ADD17A26</string>
+				<string>877EC827203F7F600411E990</string>
+				<string>FB5EE0B5C80643E814CFCA6D</string>
+				<string>1133576F51D1BC5DDBC11443</string>
+				<string>27A422566F70FEB054D4E383</string>
+				<string>EB703D471FD59CF45543BCF2</string>
+			</array>
+		</dict>
+		<key>14E8734DA3C0D7E2EAD21D43</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4536B8DC7F6B2A6A9549DB5B</string>
+				<string>E84F37DCCD872C2D3CF0A169</string>
+				<string>D42B4618E5975765377A3F92</string>
+				<string>46C88BEA75603A609EBF4122</string>
+				<string>73F085565C20DE5F32DC8990</string>
+				<string>460B55864202547629E7A493</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1734742845DF5AD333A14272</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F2EE1CD0E4E277C2AE982569</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-MAFActionSheetController-MAFActionSheetController/Pods-MAFActionSheetController-MAFActionSheetController-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>18C29AA79C83686365623815</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>8E2579909BCA1905BCEFA4EF</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -576,8 +365,6 @@
 				<string>/tmp/xcodeproj.dst</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-MAFOverlay/Pods-Tests-MAFOverlay-prefix.pch</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -612,32 +399,187 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>3E645297EBF083D7BF1B6EFE</key>
+		<key>18C326D06AC13CCE8318134F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Tests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1CAE88AD59E478E5117509CF</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>12CDB5F9E82B8D84F2F4569E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>877EC827203F7F600411E990</string>
+			<key>remoteInfo</key>
+			<string>Pods-MAFActionSheetController-MAFActionSheetController</string>
+		</dict>
+		<key>1E74019DC8491CD23DAC559A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MAFOverlayPresentationController.m</string>
+			<key>path</key>
+			<string>Pod/Classes/MAFOverlayPresentationController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1EA6937A8A254F7FD7CF17FB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>18C326D06AC13CCE8318134F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>221BA3659280B395A6374362</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Tests-MAFOverlay</string>
+			<key>target</key>
+			<string>EB703D471FD59CF45543BCF2</string>
+			<key>targetProxy</key>
+			<string>E2FCC6F9E4847590DE6B263F</string>
+		</dict>
+		<key>22C82BB01D305340E4F80F1E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>54740DA77821A68C3467DE7B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2640A2ABD9934C90D6E16BA0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>04AE3248B5B3FB71154ECC27</string>
+				<string>394E66AC1D28BB44A17D295D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>27A422566F70FEB054D4E383</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>E9C56B9C33383D03016348B2</string>
+			<string>565279A494FAD59E69B072F3</string>
 			<key>buildPhases</key>
 			<array>
-				<string>75D8323EC99304B389B903D5</string>
-				<string>751C2489A35D8645BD9D63EE</string>
-				<string>09FB318E00078DA15571F02D</string>
+				<string>83737BDC2636796B1ED3A7F6</string>
+				<string>47EBE0496D5F691F0610FD4D</string>
+				<string>78CE589B8BC60F3CFBBB3356</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
 			<key>dependencies</key>
-			<array/>
+			<array>
+				<string>0B49DA814A5284D4FBB9DD0F</string>
+			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Pods-MAFActionSheetController-MAFOverlay</string>
+			<string>Pods-Tests-MAFActionSheetController</string>
 			<key>productName</key>
-			<string>Pods-MAFActionSheetController-MAFOverlay</string>
+			<string>Pods-Tests-MAFActionSheetController</string>
 			<key>productReference</key>
-			<string>4321F46EE3730E6F998777CF</string>
+			<string>73F085565C20DE5F32DC8990</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>3F7825C677EAE509494CDEAA</key>
+		<key>294B2D6BD450B32DC986BB58</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-MAFActionSheetController-MAFOverlay</string>
+			<key>target</key>
+			<string>FB5EE0B5C80643E814CFCA6D</string>
+			<key>targetProxy</key>
+			<string>9FBE4F77E02DAA31DB6A8443</string>
+		</dict>
+		<key>2A8536DD92B927BFB98E27DB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>Pods-Tests-MAFOverlay-dummy.m</string>
+			<key>path</key>
+			<string>../Pods-Tests-MAFOverlay/Pods-Tests-MAFOverlay-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2A92C6F863190CF83FFFF1E4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>403C9AFD78B43D2BBD279F2B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2B29E650AD7C7D3B0F08BE21</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -645,65 +587,112 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MAFActionSheetTableViewCell.h</string>
 			<key>path</key>
-			<string>Pods-MAFActionSheetController-MAFOverlay-prefix.pch</string>
+			<string>Pod/Classes/Private/MAFActionSheetTableViewCell.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3FB5A94F1C73353EE35D92C9</key>
+		<key>2BF35E37C1A39216ACE24558</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8DE7B388C19E1C726A000A9F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2CF65B13DE099D433C4222AA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A2AAA71252DE80C4E0C7DE0B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2D2072C13A7E690D280AD0F8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A2AAA71252DE80C4E0C7DE0B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2EB31A4A7F1CAB5C16C8EB72</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>FBF397912582A5CAF681DE6B</string>
+				<string>757EE161E35A046EDB92D1D9</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>31C3908DDCB394405B51B813</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5788D3EAF604D51531730B10</string>
+				<string>2CF65B13DE099D433C4222AA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3393F8A79AA8FCA4EB97BB43</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>Pods-Tests-MAFActionSheetController-dummy.m</string>
 			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
+			<string>../Pods-Tests-MAFActionSheetController/Pods-Tests-MAFActionSheetController-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4321F46EE3730E6F998777CF</key>
+		<key>33BAB4FA310B87672169258C</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>0</string>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>libPods-MAFActionSheetController-MAFOverlay.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>456FC19122DE7614778CDA23</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F83EC5B7E80EFC7FEF14F438</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
+			<string>Pods-MAFActionSheetController-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4718B5A6798B8FBDA5B1BFC1</key>
+		<key>34A168376C9735E3AD35EED6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5FF1D0127218F8E78F723DCA</string>
+			<string>ABA1F288A6E14455EF4B4F98</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>4824CE49C52804BE4ACB78B8</key>
+		<key>394E66AC1D28BB44A17D295D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AADE0F0DF43D3CE152AD8334</string>
+			<string>A2AAA71252DE80C4E0C7DE0B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>48B69FB1300479B105D26BB1</key>
+		<key>3A4F3EA0436AFEFC182E0EB9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>633729B5368617A7B4220265</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3A7E1A23556C8C490B8E3671</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -718,27 +707,50 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>498BAA41D3D4F40AB366B332</key>
+		<key>3B93145EDA36A139512B6FAA</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>1CE7FA399A194B4A291CEE0C</string>
-				<string>E85082FA55B0A1A3D8024980</string>
-				<string>2B045670E763B85C9D80F3F2</string>
-				<string>E6EC38D02AC9C97C7D55047C</string>
-				<string>4D83189A034B1D1D444BF224</string>
+				<string>B9807CC8E53602881119956D</string>
+				<string>2D2072C13A7E690D280AD0F8</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>4CFF30471FC005D19FD64179</key>
+		<key>3BACA87BEAEEDE9B8B2B5B52</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Pods-Tests-MAFOverlay-prefix.pch</string>
+			<key>path</key>
+			<string>../Pods-Tests-MAFOverlay/Pods-Tests-MAFOverlay-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3DE52A5ABA5F53A51DF75E9C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-Tests-MAFActionSheetController</string>
+			<key>target</key>
+			<string>27A422566F70FEB054D4E383</string>
+			<key>targetProxy</key>
+			<string>F7E0B893E79E2F5197E8AA58</string>
+		</dict>
+		<key>3FC3ABBF4FC576B609A8FD2F</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>007D55EB136FB97C9611A327</string>
+			<string>7C2EA5A7638338F466A176DD</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -749,6 +761,8 @@
 				<string>/tmp/xcodeproj.dst</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-MAFActionSheetController-MAFOverlay/Pods-MAFActionSheetController-MAFOverlay-prefix.pch</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -783,14 +797,7 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>4D83189A034B1D1D444BF224</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EBD4D0714F765B1159DF2CA1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>500114380B57881A86FF0C2E</key>
+		<key>403C9AFD78B43D2BBD279F2B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -798,256 +805,120 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-MAFActionSheetController-MAFActionSheetController-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50710798AD810624E4C96BE9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>701D5FF1690BFC71A3159893</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Development Pods</string>
+			<string>MAFOverlayPresentationCoordinator.m</string>
+			<key>path</key>
+			<string>Pod/Classes/MAFOverlayPresentationCoordinator.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>530DDE9C321529406A880CE8</key>
+		<key>4536B8DC7F6B2A6A9549DB5B</key>
 		<dict>
-			<key>fileRef</key>
-			<string>A42D0DE46324DB4F5D8D8597</string>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-MAFActionSheetController.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>535C9B80B0E73895A0BB08F6</key>
+		<key>460B55864202547629E7A493</key>
 		<dict>
-			<key>fileRef</key>
-			<string>AA2FF4BE44368E2B6E31D0EE</string>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Tests-MAFOverlay.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>55188D027208BD191D45F392</key>
+		<key>46654F3B6D83BA113822A583</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>82811CCD2D5E241814F1D20F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
+			<key>includeInIndex</key>
 			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>61CE8E76D5154F7C020786D9</string>
-			<key>remoteInfo</key>
-			<string>Pods-MAFActionSheetController-MAFActionSheetController</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MAFActionSheetTableViewCell.m</string>
+			<key>path</key>
+			<string>Pod/Classes/Private/MAFActionSheetTableViewCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>56685136237F86F2758D56F6</key>
+		<key>46C88BEA75603A609EBF4122</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Tests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>47C0ADFC80A311EA8877D940</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8564353F588DB63A81158169</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>47EBE0496D5F691F0610FD4D</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>8DA757A52015D8920B9E0409</string>
+				<string>7B3D43BA6253F134ADC6B237</string>
+				<string>0ECDA91B838E3BB45E4E452C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>598B67DACFF3EC29BD470FB1</key>
+		<key>4906828234D499C5EFA4FBA3</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-MAFActionSheetController-MAFActionSheetController</string>
-			<key>target</key>
-			<string>61CE8E76D5154F7C020786D9</string>
-			<key>targetProxy</key>
-			<string>55188D027208BD191D45F392</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-MAFActionSheetController-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5A654B54D7D3D8DAC38C7565</key>
+		<key>4B2016A15DE063E54A4687B7</key>
 		<dict>
-			<key>buildConfigurations</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>F8D7172C4667D7D0789C33FF</string>
-				<string>3E3F13799B1D6B73780C7E58</string>
+				<string>DD8ABA61BA98BB725893FEC9</string>
+				<string>E56D0CB259C1ED9B67BED1D9</string>
+				<string>3A4F3EA0436AFEFC182E0EB9</string>
+				<string>D77604CBE58CB833827CCA17</string>
+				<string>D0F9E791FFC18B8DAA36B950</string>
+				<string>6E8F37B6B9C5E04767057B61</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
 		</dict>
-		<key>5CCE835C839A44582E0952C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D690FEA65DAED51242F1435</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-MAFActionSheetController-MAFOverlay</string>
-			<key>target</key>
-			<string>3E645297EBF083D7BF1B6EFE</string>
-			<key>targetProxy</key>
-			<string>D902A391541C6FE70DC87370</string>
-		</dict>
-		<key>5E1761F26155D21AC8F0B552</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3149B43F8B3A170EBFCDF279</string>
-				<string>CEDE9B2351B8A22DAA212FF4</string>
-				<string>500114380B57881A86FF0C2E</string>
-				<string>B4F358991C2E98CCEA2C62FE</string>
-				<string>48B69FB1300479B105D26BB1</string>
-				<string>DC62E3BA27EEA88E1136A5AE</string>
-				<string>6DA2FE824673624BE83C031B</string>
-				<string>E47F3FAD606C428F1ED974F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-MAFActionSheetController-MAFActionSheetController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5EE7835BC7F137374657CF60</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MAFOverlayPresentationController.h</string>
-			<key>path</key>
-			<string>Pod/Classes/MAFOverlayPresentationController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FE4E1CFC8E0934E12060AC9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MAFOverlayPresentationAnimator.m</string>
-			<key>path</key>
-			<string>Pod/Classes/MAFOverlayPresentationAnimator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FF1D0127218F8E78F723DCA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MAFActionSheetTableViewCell.h</string>
-			<key>path</key>
-			<string>Pod/Classes/MAFActionSheetTableViewCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60FBA715DD26E5C99D7E1D3B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MAFActionSheetController-MAFOverlay.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61CE8E76D5154F7C020786D9</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D35145CD988098661F0C202B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A70152F9A36AC52C3E35EBF1</string>
-				<string>BE13603003CD9EA72044B274</string>
-				<string>BCF5CBE3D1544AA7E099CF15</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>5D690FEA65DAED51242F1435</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MAFActionSheetController-MAFActionSheetController</string>
-			<key>productName</key>
-			<string>Pods-MAFActionSheetController-MAFActionSheetController</string>
-			<key>productReference</key>
-			<string>BA705697FDB3E90B2A2FF581</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>6288808A68B6FE16F6EA6D46</key>
-		<dict>
-			<key>fileRef</key>
-			<string>812FF9405816E10094EEB1D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62D4FAD7F1D884832A3C1D3B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>64246D6C25FDB85BED5F82B1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MAFOverlayPresentationContext.h</string>
-			<key>path</key>
-			<string>Pod/Classes/MAFOverlayPresentationContext.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>65365BD699944708AA45A4B0</key>
+		<key>4BDCBB5F90B32038CCDFD495</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1060,28 +931,14 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>65900BCAC6822938D36BA81F</key>
+		<key>4F083228699AF1676E753215</key>
 		<dict>
 			<key>fileRef</key>
-			<string>920E0D2EF9839CA0D2349DA6</string>
+			<string>985AD34317C40B1EC00CF06A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>66CA4FFA28B8AC31CB8C816E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8F9753EEA7F857B13C50DA97</string>
-				<string>69105D87688D4D08640DA381</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>69105D87688D4D08640DA381</key>
+		<key>4F1D740C08822AF7413E1932</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -1143,22 +1000,27 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>69B31742DDDF78660A081B57</key>
+		<key>50F9E29327EDC6658B891C41</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-MAFOverlay-prefix.pch</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>../Pods-Tests-MAFOverlay/Pods-Tests-MAFOverlay-prefix.pch</string>
+			<string>Pods-MAFActionSheetController.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6DA2FE824673624BE83C031B</key>
+		<key>52A80BCF9BFEF63543B1CAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2B29E650AD7C7D3B0F08BE21</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>54740DA77821A68C3467DE7B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1167,117 +1029,793 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Pods-Tests-MAFActionSheetController-dummy.m</string>
+			<string>MAFOverlayPresentationAnimator.m</string>
 			<key>path</key>
-			<string>../Pods-Tests-MAFActionSheetController/Pods-Tests-MAFActionSheetController-dummy.m</string>
+			<string>Pod/Classes/MAFOverlayPresentationAnimator.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6F25060CD9355E33456365CE</key>
+		<key>54C92D6FE6FD638A2DFBD885</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>12253980DAF8BB4EB81D603D</string>
-				<string>D25CEE27B9970E8AA8F1E5CC</string>
-				<string>8F4718DE25507CC0343DAC8B</string>
-				<string>DC05362F4B8505FD33C6C8AC</string>
-				<string>288E2A5E909C1CF3D753A60C</string>
-				<string>530DDE9C321529406A880CE8</string>
-			</array>
+			<key>fileRef</key>
+			<string>633729B5368617A7B4220265</string>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>565279A494FAD59E69B072F3</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>129EAA5ED68F90BAF9E9F9F3</string>
+				<string>87E846F3B52362FF4A01E437</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
-		</dict>
-		<key>701D5FF1690BFC71A3159893</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>120E0E9FB8BDED32E870A6C8</string>
-				<string>920E0D2EF9839CA0D2349DA6</string>
-				<string>812FF9405816E10094EEB1D4</string>
-				<string>E37A53347EBBEE4256610B66</string>
-				<string>5FF1D0127218F8E78F723DCA</string>
-				<string>AADE0F0DF43D3CE152AD8334</string>
-				<string>5E1761F26155D21AC8F0B552</string>
-			</array>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>5788D3EAF604D51531730B10</key>
+		<dict>
+			<key>fileRef</key>
+			<string>985AD34317C40B1EC00CF06A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A5164030E9604D6AF879F9A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F893B0858C0C80B59BB23A37</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5B4FCD124D862DE315CDE246</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>CB6A11D0AC197E1FF187831C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>MAFActionSheetController</string>
+			<string>Release</string>
+		</dict>
+		<key>5BEC008DB16C98EC1DC85CD9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F2EE1CD0E4E277C2AE982569</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-MAFActionSheetController-MAFActionSheetController/Pods-MAFActionSheetController-MAFActionSheetController-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>5E672448D1E095FE5002E41D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>../..</string>
+			<string>Pods-MAFActionSheetController-environment.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>751C2489A35D8645BD9D63EE</key>
+		<key>630D899E7FC9550D785712D8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2B29E650AD7C7D3B0F08BE21</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>633729B5368617A7B4220265</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MAFOverlayPresentationController.h</string>
+			<key>path</key>
+			<string>Pod/Classes/MAFOverlayPresentationController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>66B98321FFF7F639DC2CBEBE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MAFOverlayPresentationContext.h</string>
+			<key>path</key>
+			<string>Pod/Classes/MAFOverlayPresentationContext.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>683FEF721B813A71450DE632</key>
+		<dict>
+			<key>fileRef</key>
+			<string>403C9AFD78B43D2BBD279F2B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>687A495BD4477B1D6756D5DC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8564353F588DB63A81158169</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>68F995118089B63B4CE13D99</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>F3E9172E6425CAD0883BD3AD</string>
+				<string>3FC3ABBF4FC576B609A8FD2F</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>6B96E358442D53E396F65BF0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-Tests-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6DB5EC807101240AC7FCDDC2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>33BAB4FA310B87672169258C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6E8F37B6B9C5E04767057B61</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BEAB230CB4DDFB6D751398CF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6FB6945004029EAC88FE6BD2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>10B548ED0F3C698BC94E8349</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7237DFD303A69A4071133818</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>102732509D006533917C731C</string>
-				<string>361BD8BED4B90FEF008FB0AB</string>
+				<string>898DF0EAC0F333EC70173994</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>75D8323EC99304B389B903D5</key>
+		<key>73F085565C20DE5F32DC8990</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Tests-MAFActionSheetController.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>757EE161E35A046EDB92D1D9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>7AE4D29392E4564AA76DE909</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Tests-MAFOverlay/Pods-Tests-MAFOverlay-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>75C84A4EEEECA7580CD06798</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-Tests-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>769D345FF2DD73E1BD1C8CCC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D42C04E156CD0C348199BBA1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>78CE589B8BC60F3CFBBB3356</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>C3334AC9D32BE3F1604ED3E3</string>
-				<string>BEEFB24BD8980AB45D092178</string>
-				<string>F555ECBF2872AE9457FD9C56</string>
-				<string>39D74A71DDFB4FE831DD1436</string>
-				<string>CBE70426615FEBE36BCF68F4</string>
+				<string>687A495BD4477B1D6756D5DC</string>
+				<string>CACF8DAD1CB4AC8841E038BE</string>
+				<string>52A80BCF9BFEF63543B1CAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7992B3F2CFD5145F9D60F7C9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ED146E6A55176AFF22C81D07</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7AE4D29392E4564AA76DE909</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Tests-MAFOverlay-Private.xcconfig</string>
+			<key>path</key>
+			<string>../Pods-Tests-MAFOverlay/Pods-Tests-MAFOverlay-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7B3D43BA6253F134ADC6B237</key>
+		<dict>
+			<key>fileRef</key>
+			<string>985AD34317C40B1EC00CF06A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7C2EA5A7638338F466A176DD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-MAFActionSheetController-MAFOverlay-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7CC6C7C2374E558AC8957D9F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-MAFActionSheetController-MAFActionSheetController-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>818C686A6DC74A70B9A47FAB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>90B5249465F34B88BAB1B816</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>83737BDC2636796B1ED3A7F6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>769D345FF2DD73E1BD1C8CCC</string>
+				<string>2BF35E37C1A39216ACE24558</string>
+				<string>CBD27F686463974FDD430D1D</string>
+				<string>EF6C71F654D58872A07849E6</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>77AB18AE360A7082724A51D5</key>
+		<key>8564353F588DB63A81158169</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MAFActionSheetController.h</string>
+			<key>path</key>
+			<string>Pod/Classes/MAFActionSheetController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>85CD4C3D0DD80E18EE0BE7E9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>34A168376C9735E3AD35EED6</string>
+				<string>A0C17012E3F63B23CEFA5F45</string>
+				<string>54C92D6FE6FD638A2DFBD885</string>
+				<string>D14847B7B325F01EF071CB40</string>
+				<string>818C686A6DC74A70B9A47FAB</string>
+				<string>ED10C894721C38E3094707F3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>877EC827203F7F600411E990</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>37517D2ED0C94E8CB54E8573</string>
+			<string>BDD24C98F7399AC79E5615C1</string>
 			<key>buildPhases</key>
 			<array>
-				<string>3CA6C0734A6B46E0DCDD1D4E</string>
-				<string>327EC20A4CAE8042DC6B0ADC</string>
+				<string>C0FE8F176E2B9D92AAA0D986</string>
+				<string>31C3908DDCB394405B51B813</string>
+				<string>0C729773D3F14B516B6C4A02</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>7E99D2C46EBCF27AA86B922E</string>
-				<string>E31B8028A63A0C6EEE94C1F9</string>
+				<string>294B2D6BD450B32DC986BB58</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Pods-Tests</string>
+			<string>Pods-MAFActionSheetController-MAFActionSheetController</string>
 			<key>productName</key>
-			<string>Pods-Tests</string>
+			<string>Pods-MAFActionSheetController-MAFActionSheetController</string>
 			<key>productReference</key>
-			<string>28E305E72556C1FC112F0776</string>
+			<string>E84F37DCCD872C2D3CF0A169</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>79A2681C00F5FC93BFDA3531</key>
+		<key>87E846F3B52362FF4A01E437</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>AE3652CBDFD752B104007550</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-Tests-MAFActionSheetController/Pods-Tests-MAFActionSheetController-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>88E1EAC6380F74E883799431</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5EE7835BC7F137374657CF60</string>
+			<string>8DE7B388C19E1C726A000A9F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>79ECD6640D4D03CCD76BC85D</key>
+		<key>88F0D5AC1224FCCBCC920399</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A67E6F642325229DE0A06B96</string>
+				<string>F72B63D51D0FE6BA3F725A69</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>898DF0EAC0F333EC70173994</key>
+		<dict>
+			<key>fileRef</key>
+			<string>985AD34317C40B1EC00CF06A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8CF7735E1FEE183FED3BAB81</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>50F9E29327EDC6658B891C41</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8DE7B388C19E1C726A000A9F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MAFActionSheetItem.m</string>
+			<key>path</key>
+			<string>Pod/Classes/MAFActionSheetItem.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8DF7B0086440B64F1170FF46</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2D64458EE0BED20D9EAD553</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8E2579909BCA1905BCEFA4EF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-MAFActionSheetController.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EB04B0A19D0A9A96CADF8F4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Pods-Tests-MAFActionSheetController-prefix.pch</string>
+			<key>path</key>
+			<string>../Pods-Tests-MAFActionSheetController/Pods-Tests-MAFActionSheetController-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9070509B86A019984FDED1A6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>54740DA77821A68C3467DE7B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>90B5249465F34B88BAB1B816</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MAFOverlayPresentationDataSource.h</string>
+			<key>path</key>
+			<string>Pod/Classes/MAFOverlayPresentationDataSource.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93A2EC52BBF8E0D53559DBC3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-MAFActionSheetController-MAFActionSheetController.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9650A895D27777E40565D0DD</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>12CDB5F9E82B8D84F2F4569E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>EB703D471FD59CF45543BCF2</string>
+			<key>remoteInfo</key>
+			<string>Pods-Tests-MAFOverlay</string>
+		</dict>
+		<key>96C4F774EC8A2DFF96781070</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A2CEA2571FB71A3FBF1B800E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>985AD34317C40B1EC00CF06A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>9A96A7DC7E5D433A627D67E7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DEB205DC613F7AD6A7530486</string>
+				<string>7C2EA5A7638338F466A176DD</string>
+				<string>ED146E6A55176AFF22C81D07</string>
+				<string>BAC0F0DBBC199C1D54972D5B</string>
+				<string>9B0F6B81FEF5DAD490253C0F</string>
+				<string>7AE4D29392E4564AA76DE909</string>
+				<string>2A8536DD92B927BFB98E27DB</string>
+				<string>3BACA87BEAEEDE9B8B2B5B52</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-MAFActionSheetController-MAFOverlay</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9B0F6B81FEF5DAD490253C0F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Tests-MAFOverlay.xcconfig</string>
+			<key>path</key>
+			<string>../Pods-Tests-MAFOverlay/Pods-Tests-MAFOverlay.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9B1C48629E7D6417083EC9A0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1294,14 +1832,176 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>7B1478D6BE2424302C151E71</key>
+		<key>9BE1872D03EB7ACB4960BD86</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6DB5EC807101240AC7FCDDC2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9FBE4F77E02DAA31DB6A8443</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>12CDB5F9E82B8D84F2F4569E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>FB5EE0B5C80643E814CFCA6D</string>
+			<key>remoteInfo</key>
+			<string>Pods-MAFActionSheetController-MAFOverlay</string>
+		</dict>
+		<key>A0C17012E3F63B23CEFA5F45</key>
 		<dict>
 			<key>fileRef</key>
-			<string>64246D6C25FDB85BED5F82B1</string>
+			<string>66B98321FFF7F639DC2CBEBE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>7E1C07883F7FE0288FD53038</key>
+		<key>A2AAA71252DE80C4E0C7DE0B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>A2CEA2571FB71A3FBF1B800E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>75C84A4EEEECA7580CD06798</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A410E7A78D133C200DA987B6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1E74019DC8491CD23DAC559A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A67E6F642325229DE0A06B96</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A7065EEE5E6E25552BD400B2</string>
+				<string>4BDCBB5F90B32038CCDFD495</string>
+				<string>33BAB4FA310B87672169258C</string>
+				<string>5E672448D1E095FE5002E41D</string>
+				<string>4906828234D499C5EFA4FBA3</string>
+				<string>50F9E29327EDC6658B891C41</string>
+				<string>8E2579909BCA1905BCEFA4EF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-MAFActionSheetController</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-MAFActionSheetController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A7065EEE5E6E25552BD400B2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-MAFActionSheetController-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A77E400C3C5389B4AFF37029</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>12CDB5F9E82B8D84F2F4569E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>FB5EE0B5C80643E814CFCA6D</string>
+			<key>remoteInfo</key>
+			<string>Pods-MAFActionSheetController-MAFOverlay</string>
+		</dict>
+		<key>A90C996589A9ED74ADD17A26</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>DB8209BCEEF5950A323E12A5</string>
+			<key>buildPhases</key>
+			<array>
+				<string>9BE1872D03EB7ACB4960BD86</string>
+				<string>AA7757EF9E13342E85E05DE1</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>BA7A7985EF730923760BA50F</string>
+				<string>065819455D0E4AF08A91C91C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-MAFActionSheetController</string>
+			<key>productName</key>
+			<string>Pods-MAFActionSheetController</string>
+			<key>productReference</key>
+			<string>4536B8DC7F6B2A6A9549DB5B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>AA7757EF9E13342E85E05DE1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4F083228699AF1676E753215</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>ABA1F288A6E14455EF4B4F98</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MAFOverlayPresentationAnimator.h</string>
+			<key>path</key>
+			<string>Pod/Classes/MAFOverlayPresentationAnimator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AC45B560095E28431FC7F784</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1E74019DC8491CD23DAC559A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AE3652CBDFD752B104007550</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1309,43 +2009,14 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Tests-MAFActionSheetController-Private.xcconfig</string>
 			<key>path</key>
-			<string>Pods-MAFActionSheetController.release.xcconfig</string>
+			<string>../Pods-Tests-MAFActionSheetController/Pods-Tests-MAFActionSheetController-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7E99D2C46EBCF27AA86B922E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-MAFActionSheetController</string>
-			<key>target</key>
-			<string>A2DA2CF1495508540F50E877</string>
-			<key>targetProxy</key>
-			<string>DD4965035B1DBA4F2B7A1061</string>
-		</dict>
-		<key>8044410DAE7DB5DA97D7CFB1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-MAFActionSheetController.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>809606924579B456F028E125</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E20C1D55BB174A3DB2150BBA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>812FF9405816E10094EEB1D4</key>
+		<key>B2D64458EE0BED20D9EAD553</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1360,112 +2031,99 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>82811CCD2D5E241814F1D20F</key>
+		<key>B7953F806746C8BF6B48971B</key>
 		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>66CA4FFA28B8AC31CB8C816E</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
+			<key>fileRef</key>
+			<string>2A8536DD92B927BFB98E27DB</string>
 			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>8B4D0D3EFDAF19BBDFB7AFCC</string>
-			<key>productRefGroup</key>
-			<string>C78D02F8D58BA1E21FC46573</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>17C436D42AD2E21A9D39E309</string>
-				<string>61CE8E76D5154F7C020786D9</string>
-				<string>3E645297EBF083D7BF1B6EFE</string>
-				<string>77AB18AE360A7082724A51D5</string>
-				<string>A2DA2CF1495508540F50E877</string>
-				<string>9DE2D12F90EF5C7AECFE95C6</string>
-			</array>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>89E11401186D650DD9A4E981</key>
+		<key>B9807CC8E53602881119956D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>985AD34317C40B1EC00CF06A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BA7A7985EF730923760BA50F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-MAFActionSheetController-MAFActionSheetController</string>
+			<key>target</key>
+			<string>877EC827203F7F600411E990</string>
+			<key>targetProxy</key>
+			<string>1CAE88AD59E478E5117509CF</string>
+		</dict>
+		<key>BAC0F0DBBC199C1D54972D5B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
+			<string>Pods-MAFActionSheetController-MAFOverlay-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8B4D0D3EFDAF19BBDFB7AFCC</key>
+		<key>BC5526FAED495F040251E82C</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>79ECD6640D4D03CCD76BC85D</string>
-				<string>50710798AD810624E4C96BE9</string>
-				<string>456FC19122DE7614778CDA23</string>
-				<string>EF35F1FBCEA5BDB450F79BD5</string>
-				<string>C78D02F8D58BA1E21FC46573</string>
-				<string>8EECFF79F229FC0964B3A258</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C172655F34432B46B8B25F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6DA2FE824673624BE83C031B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DA757A52015D8920B9E0409</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA2FF4BE44368E2B6E31D0EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8EECFF79F229FC0964B3A258</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>ADCDDD31B28649750A737DDF</string>
-				<string>D3E8357D82619A95B5F5352F</string>
+				<string>ABA1F288A6E14455EF4B4F98</string>
+				<string>54740DA77821A68C3467DE7B</string>
+				<string>66B98321FFF7F639DC2CBEBE</string>
+				<string>633729B5368617A7B4220265</string>
+				<string>1E74019DC8491CD23DAC559A</string>
+				<string>02DAD2F898CB22AD54609E7B</string>
+				<string>403C9AFD78B43D2BBD279F2B</string>
+				<string>90B5249465F34B88BAB1B816</string>
+				<string>BEAB230CB4DDFB6D751398CF</string>
+				<string>F893B0858C0C80B59BB23A37</string>
+				<string>9A96A7DC7E5D433A627D67E7</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Targets Support Files</string>
+			<string>MAFOverlay</string>
+			<key>path</key>
+			<string>MAFOverlay</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8F4718DE25507CC0343DAC8B</key>
+		<key>BDD24C98F7399AC79E5615C1</key>
 		<dict>
-			<key>fileRef</key>
-			<string>5EE7835BC7F137374657CF60</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>1734742845DF5AD333A14272</string>
+				<string>5BEC008DB16C98EC1DC85CD9</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>8F9753EEA7F857B13C50DA97</key>
+		<key>BEAB230CB4DDFB6D751398CF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MAFOverlayPresentationLayoutAttributes.h</string>
+			<key>path</key>
+			<string>Pod/Classes/MAFOverlayPresentationLayoutAttributes.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BF5BC7A2057E7F1AB015CBDD</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -1532,56 +2190,125 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>9045BE95CBE619240BB0520A</key>
+		<key>C0FE8F176E2B9D92AAA0D986</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DC62E3BA27EEA88E1136A5AE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-MAFActionSheetController/Pods-Tests-MAFActionSheetController-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0DCFDD639F9851A4ED3D1AA2</string>
+				<string>88E1EAC6380F74E883799431</string>
+				<string>04A35416C9C9CDE0F94007D7</string>
+				<string>6FB6945004029EAC88FE6BD2</string>
+			</array>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>920E0D2EF9839CA0D2349DA6</key>
+		<key>CACF8DAD1CB4AC8841E038BE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2D64458EE0BED20D9EAD553</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CB6A11D0AC197E1FF187831C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Tests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CBD27F686463974FDD430D1D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>46654F3B6D83BA113822A583</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CDCE106025A2F90EA049B35D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EEC17A9111CC701ADAE6F398</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D0B62CC2454365B6032B64BA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Tests-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D0F9E791FFC18B8DAA36B950</key>
+		<dict>
+			<key>fileRef</key>
+			<string>90B5249465F34B88BAB1B816</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D14847B7B325F01EF071CB40</key>
+		<dict>
+			<key>fileRef</key>
+			<string>02DAD2F898CB22AD54609E7B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D231AF6B31B8C6B5DF30588E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>93A2EC52BBF8E0D53559DBC3</string>
+				<string>F2EE1CD0E4E277C2AE982569</string>
+				<string>10B548ED0F3C698BC94E8349</string>
+				<string>7CC6C7C2374E558AC8957D9F</string>
+				<string>3A7E1A23556C8C490B8E3671</string>
+				<string>AE3652CBDFD752B104007550</string>
+				<string>3393F8A79AA8FCA4EB97BB43</string>
+				<string>8EB04B0A19D0A9A96CADF8F4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Pods/Target Support Files/Pods-MAFActionSheetController-MAFActionSheetController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D42B4618E5975765377A3F92</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-MAFActionSheetController-MAFOverlay.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D42C04E156CD0C348199BBA1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1596,249 +2323,132 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9795E70353AC1D41AAF10305</key>
+		<key>D77604CBE58CB833827CCA17</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AA2FF4BE44368E2B6E31D0EE</string>
+			<string>02DAD2F898CB22AD54609E7B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>99FB7E9343491F18CFE5338C</key>
+		<key>DAF76DB30451E1F6F85B0687</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC5526FAED495F040251E82C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DB8209BCEEF5950A323E12A5</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8CF7735E1FEE183FED3BAB81</string>
+				<string>18C29AA79C83686365623815</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>DD8ABA61BA98BB725893FEC9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AA2FF4BE44368E2B6E31D0EE</string>
+			<string>ABA1F288A6E14455EF4B4F98</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9CFFB20F854CF4812C34BFAF</key>
+		<key>DEB205DC613F7AD6A7530486</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
+			<string>Pods-MAFActionSheetController-MAFOverlay.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9DE2D12F90EF5C7AECFE95C6</key>
+		<key>E2FCC6F9E4847590DE6B263F</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>5A654B54D7D3D8DAC38C7565</string>
-			<key>buildPhases</key>
-			<array>
-				<string>498BAA41D3D4F40AB366B332</string>
-				<string>E05E3F4F824AE39B024491BD</string>
-				<string>6F25060CD9355E33456365CE</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
+			<key>containerPortal</key>
+			<string>12CDB5F9E82B8D84F2F4569E</string>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>EB703D471FD59CF45543BCF2</string>
+			<key>remoteInfo</key>
 			<string>Pods-Tests-MAFOverlay</string>
-			<key>productName</key>
-			<string>Pods-Tests-MAFOverlay</string>
-			<key>productReference</key>
-			<string>3937847E95EC0C7C9A8CD5A0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>A1C3216DCEAF4F17D2B1FDE8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E37A53347EBBEE4256610B66</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A2DA2CF1495508540F50E877</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>F8C9FB2AAAA3078BA684DC6C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FD6A661854E11571552BAFA4</string>
-				<string>0732F7674E32C668501C19B2</string>
-				<string>3598A612A1C5B055E4DE2BCC</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>18BDBFDC389666BDB102839E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-MAFActionSheetController</string>
-			<key>productName</key>
-			<string>Pods-Tests-MAFActionSheetController</string>
-			<key>productReference</key>
-			<string>E23EAFD5F5FA5D1E1DB24BE4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>A42D0DE46324DB4F5D8D8597</key>
+		<key>E377B0DC298EDA4DE1EF3FE6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MAFOverlayPresentationLayoutAttributes.h</string>
+			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pod/Classes/MAFOverlayPresentationLayoutAttributes.h</string>
+			<string>Pods-Tests-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A70152F9A36AC52C3E35EBF1</key>
+		<key>E5489C28B93CAFAD5B8DF86E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8564353F588DB63A81158169</string>
+				<string>D42C04E156CD0C348199BBA1</string>
+				<string>B2D64458EE0BED20D9EAD553</string>
+				<string>8DE7B388C19E1C726A000A9F</string>
+				<string>2B29E650AD7C7D3B0F08BE21</string>
+				<string>46654F3B6D83BA113822A583</string>
+				<string>D231AF6B31B8C6B5DF30588E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MAFActionSheetController</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E56D0CB259C1ED9B67BED1D9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>66B98321FFF7F639DC2CBEBE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E820D45B8D5E2D2AF4AD34A1</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>C7FCA78C32C15075D911BF19</string>
-				<string>133156DB10468BA97C75B0A6</string>
-				<string>A9ED14FD822BE34E1A43EEAF</string>
-				<string>A82760002EF16882EFAEB0B2</string>
+				<string>22C82BB01D305340E4F80F1E</string>
+				<string>AC45B560095E28431FC7F784</string>
+				<string>683FEF721B813A71450DE632</string>
+				<string>0A9D19EFEDC31B8D14E3C3A1</string>
+				<string>B7953F806746C8BF6B48971B</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>A73CB0027D95D0262424C335</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F9A5A78AEE567FCE5E40B079</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-MAFActionSheetController-MAFOverlay/Pods-MAFActionSheetController-MAFOverlay-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A82760002EF16882EFAEB0B2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>500114380B57881A86FF0C2E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A9ED14FD822BE34E1A43EEAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AADE0F0DF43D3CE152AD8334</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AA2FF4BE44368E2B6E31D0EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>AADE0F0DF43D3CE152AD8334</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MAFActionSheetTableViewCell.m</string>
-			<key>path</key>
-			<string>Pod/Classes/MAFActionSheetTableViewCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ADCDDD31B28649750A737DDF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>29217AE5459B7C7A765C3947</string>
-				<string>65365BD699944708AA45A4B0</string>
-				<string>074511EB73EAEB1788D2C36A</string>
-				<string>114470636078FCA3E7D58359</string>
-				<string>2C7CB2C16784661EC6A83C2A</string>
-				<string>C4F0FA9FB840FC1ABB885A0D</string>
-				<string>7E1C07883F7FE0288FD53038</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-MAFActionSheetController</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-MAFActionSheetController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4F358991C2E98CCEA2C62FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-MAFActionSheetController-MAFActionSheetController-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA705697FDB3E90B2A2FF581</key>
+		<key>E84F37DCCD872C2D3CF0A169</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -1851,223 +2461,37 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>BCF5CBE3D1544AA7E099CF15</key>
+		<key>EB703D471FD59CF45543BCF2</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>buildConfigurationList</key>
+			<string>2EB31A4A7F1CAB5C16C8EB72</string>
+			<key>buildPhases</key>
 			<array>
-				<string>BE71B677919C81554AD6F5DF</string>
-				<string>1667F1037806C370EDDE04B8</string>
-				<string>4718B5A6798B8FBDA5B1BFC1</string>
+				<string>E820D45B8D5E2D2AF4AD34A1</string>
+				<string>2640A2ABD9934C90D6E16BA0</string>
+				<string>85CD4C3D0DD80E18EE0BE7E9</string>
 			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BDC0D6389C3F584D7D16BE93</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>60FBA715DD26E5C99D7E1D3B</string>
-				<string>F9A5A78AEE567FCE5E40B079</string>
-				<string>E562D837E50DF329E0C6413B</string>
-				<string>3F7825C677EAE509494CDEAA</string>
-				<string>DE5E73B74E985D87C931C7B3</string>
-				<string>E07E8EA222160AD93D9ED9C6</string>
-				<string>EBD4D0714F765B1159DF2CA1</string>
-				<string>69B31742DDDF78660A081B57</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-MAFActionSheetController-MAFOverlay</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BE13603003CD9EA72044B274</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>37A0B2F1D405B1484547AA87</string>
-				<string>2C9CD6EEFB8B3E760D97D4DF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BE71B677919C81554AD6F5DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>120E0E9FB8BDED32E870A6C8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BEEFB24BD8980AB45D092178</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10C41C103D6DD716529B16D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C3334AC9D32BE3F1604ED3E3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5FE4E1CFC8E0934E12060AC9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4F0FA9FB840FC1ABB885A0D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MAFActionSheetController.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C53722D2CEA78D941DC08974</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>62D4FAD7F1D884832A3C1D3B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C78D02F8D58BA1E21FC46573</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8044410DAE7DB5DA97D7CFB1</string>
-				<string>BA705697FDB3E90B2A2FF581</string>
-				<string>4321F46EE3730E6F998777CF</string>
-				<string>28E305E72556C1FC112F0776</string>
-				<string>E23EAFD5F5FA5D1E1DB24BE4</string>
-				<string>3937847E95EC0C7C9A8CD5A0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7FCA78C32C15075D911BF19</key>
-		<dict>
-			<key>fileRef</key>
-			<string>920E0D2EF9839CA0D2349DA6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CBE70426615FEBE36BCF68F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E562D837E50DF329E0C6413B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CEDE9B2351B8A22DAA212FF4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MAFActionSheetController-MAFActionSheetController-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D0BAE015D61642D08664396E</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>82811CCD2D5E241814F1D20F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9DE2D12F90EF5C7AECFE95C6</string>
-			<key>remoteInfo</key>
 			<string>Pods-Tests-MAFOverlay</string>
+			<key>productName</key>
+			<string>Pods-Tests-MAFOverlay</string>
+			<key>productReference</key>
+			<string>460B55864202547629E7A493</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>D0EE61D5F02BAA7237C5106C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5FF1D0127218F8E78F723DCA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D20D7559190FD06BF569E73D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A42D0DE46324DB4F5D8D8597</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D25CEE27B9970E8AA8F1E5CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64246D6C25FDB85BED5F82B1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D35145CD988098661F0C202B</key>
+		<key>ECBA8E13DE0FE536D4EEFFB4</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>D8A399E3A9159DC43A62D54D</string>
-				<string>1F75EDD468C9D65652F69AB9</string>
+				<string>BF5BC7A2057E7F1AB015CBDD</string>
+				<string>4F1D740C08822AF7413E1932</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -2076,427 +2500,14 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>D3E8357D82619A95B5F5352F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9CFFB20F854CF4812C34BFAF</string>
-				<string>89E11401186D650DD9A4E981</string>
-				<string>E20C1D55BB174A3DB2150BBA</string>
-				<string>5CCE835C839A44582E0952C6</string>
-				<string>3FB5A94F1C73353EE35D92C9</string>
-				<string>62D4FAD7F1D884832A3C1D3B</string>
-				<string>007D55EB136FB97C9611A327</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D45D1139B3DBD22E6370DB03</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DC62E3BA27EEA88E1136A5AE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-MAFActionSheetController/Pods-Tests-MAFActionSheetController-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D527C2CD6143F920F9E2B01E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E1150188D103242968436C3C</string>
-				<string>2D5D27B36FC2F48D5ABFE0E7</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D8A399E3A9159DC43A62D54D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CEDE9B2351B8A22DAA212FF4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-MAFActionSheetController-MAFActionSheetController/Pods-MAFActionSheetController-MAFActionSheetController-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D902A391541C6FE70DC87370</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>82811CCD2D5E241814F1D20F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3E645297EBF083D7BF1B6EFE</string>
-			<key>remoteInfo</key>
-			<string>Pods-MAFActionSheetController-MAFOverlay</string>
-		</dict>
-		<key>DA1E8B3BE2F3A92D7524A18F</key>
+		<key>ED10C894721C38E3094707F3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DF77D313AE05614E97452E08</string>
+			<string>BEAB230CB4DDFB6D751398CF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DB1DE123A4FAE415F50FA60C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>82811CCD2D5E241814F1D20F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3E645297EBF083D7BF1B6EFE</string>
-			<key>remoteInfo</key>
-			<string>Pods-MAFActionSheetController-MAFOverlay</string>
-		</dict>
-		<key>DB886B4661D01821CB4AA4E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>074511EB73EAEB1788D2C36A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC05362F4B8505FD33C6C8AC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>347531C068C91D97C081D256</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC62E3BA27EEA88E1136A5AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-MAFActionSheetController-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-MAFActionSheetController/Pods-Tests-MAFActionSheetController-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD4965035B1DBA4F2B7A1061</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>82811CCD2D5E241814F1D20F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>A2DA2CF1495508540F50E877</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-MAFActionSheetController</string>
-		</dict>
-		<key>DE14CF2E3B1121682A8425E9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DF77D313AE05614E97452E08</string>
-				<string>5FE4E1CFC8E0934E12060AC9</string>
-				<string>64246D6C25FDB85BED5F82B1</string>
-				<string>5EE7835BC7F137374657CF60</string>
-				<string>10C41C103D6DD716529B16D4</string>
-				<string>347531C068C91D97C081D256</string>
-				<string>1D9ED108A47B75A9E19F0869</string>
-				<string>1F51A18AE4621AB7A6CDA949</string>
-				<string>A42D0DE46324DB4F5D8D8597</string>
-				<string>3C5AE58B1EA73C7D590070B2</string>
-				<string>BDC0D6389C3F584D7D16BE93</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MAFOverlay</string>
-			<key>path</key>
-			<string>MAFOverlay</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE5E73B74E985D87C931C7B3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-MAFOverlay.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-MAFOverlay/Pods-Tests-MAFOverlay.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DF77D313AE05614E97452E08</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MAFOverlayPresentationAnimator.h</string>
-			<key>path</key>
-			<string>Pod/Classes/MAFOverlayPresentationAnimator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E05E3F4F824AE39B024491BD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9795E70353AC1D41AAF10305</string>
-				<string>19BFA4E5D8948B3A8FC09404</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E07E8EA222160AD93D9ED9C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-MAFOverlay-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-MAFOverlay/Pods-Tests-MAFOverlay-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0865426E42FF656B2284D14</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>E1150188D103242968436C3C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C4F0FA9FB840FC1ABB885A0D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E20C1D55BB174A3DB2150BBA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E23EAFD5F5FA5D1E1DB24BE4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-MAFActionSheetController.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E31B8028A63A0C6EEE94C1F9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-MAFOverlay</string>
-			<key>target</key>
-			<string>9DE2D12F90EF5C7AECFE95C6</string>
-			<key>targetProxy</key>
-			<string>D0BAE015D61642D08664396E</string>
-		</dict>
-		<key>E37A53347EBBEE4256610B66</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MAFActionSheetItem.m</string>
-			<key>path</key>
-			<string>Pod/Classes/MAFActionSheetItem.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E47F3FAD606C428F1ED974F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-MAFActionSheetController-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-MAFActionSheetController/Pods-Tests-MAFActionSheetController-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E562D837E50DF329E0C6413B</key>
+		<key>ED146E6A55176AFF22C81D07</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2509,113 +2520,71 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E6EC38D02AC9C97C7D55047C</key>
+		<key>EEC17A9111CC701ADAE6F398</key>
 		<dict>
-			<key>fileRef</key>
-			<string>3C5AE58B1EA73C7D590070B2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E85082FA55B0A1A3D8024980</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10C41C103D6DD716529B16D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E918E6F6F4D8263B0DE5051F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1F51A18AE4621AB7A6CDA949</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E981744A59D59B31F4515C69</key>
-		<dict>
-			<key>fileRef</key>
-			<string>347531C068C91D97C081D256</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9C56B9C33383D03016348B2</key>
-		<dict>
-			<key>buildConfigurations</key>
+			<key>children</key>
 			<array>
-				<string>A73CB0027D95D0262424C335</string>
-				<string>F66B29257CAC1D9258C32A22</string>
+				<string>985AD34317C40B1EC00CF06A</string>
+				<string>A2AAA71252DE80C4E0C7DE0B</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EBD4D0714F765B1159DF2CA1</key>
+		<key>EF6C71F654D58872A07849E6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3393F8A79AA8FCA4EB97BB43</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F2EE1CD0E4E277C2AE982569</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-MAFOverlay-dummy.m</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>../Pods-Tests-MAFOverlay/Pods-Tests-MAFOverlay-dummy.m</string>
+			<string>Pods-MAFActionSheetController-MAFActionSheetController-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EF35F1FBCEA5BDB450F79BD5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DE14CF2E3B1121682A8425E9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F555ECBF2872AE9457FD9C56</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D9ED108A47B75A9E19F0869</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F66B29257CAC1D9258C32A22</key>
+		<key>F3E9172E6425CAD0883BD3AD</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F9A5A78AEE567FCE5E40B079</string>
+			<string>7C2EA5A7638338F466A176DD</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
 				<string>NO</string>
 				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
+				<string>NO</string>
 				<key>DSTROOT</key>
 				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
 				<string>Target Support Files/Pods-MAFActionSheetController-MAFOverlay/Pods-MAFActionSheetController-MAFOverlay-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
 				<key>INSTALL_PATH</key>
 				<string>$(BUILT_PRODUCTS_DIR)</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>OTHER_LIBTOOLFLAGS</key>
@@ -2628,46 +2597,106 @@
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>Debug</string>
 		</dict>
-		<key>F83EC5B7E80EFC7FEF14F438</key>
+		<key>F3EC2EEACD19112A410AA6A9</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>AA2FF4BE44368E2B6E31D0EE</string>
-				<string>E0865426E42FF656B2284D14</string>
+				<string>9B1C48629E7D6417083EC9A0</string>
+				<string>113C3CD5B573C4D5EDD2D8ED</string>
+				<string>CDCE106025A2F90EA049B35D</string>
+				<string>DAF76DB30451E1F6F85B0687</string>
+				<string>14E8734DA3C0D7E2EAD21D43</string>
+				<string>88F0D5AC1224FCCBCC920399</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F72B63D51D0FE6BA3F725A69</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6B96E358442D53E396F65BF0</string>
+				<string>0A28BA0C07BD442CC9D2336C</string>
+				<string>75C84A4EEEECA7580CD06798</string>
+				<string>D0B62CC2454365B6032B64BA</string>
+				<string>E377B0DC298EDA4DE1EF3FE6</string>
+				<string>18C326D06AC13CCE8318134F</string>
+				<string>CB6A11D0AC197E1FF187831C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>iOS</string>
+			<string>Pods-Tests</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-Tests</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F8C9FB2AAAA3078BA684DC6C</key>
+		<key>F7E0B893E79E2F5197E8AA58</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9045BE95CBE619240BB0520A</string>
-				<string>D45D1139B3DBD22E6370DB03</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>containerPortal</key>
+			<string>12CDB5F9E82B8D84F2F4569E</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>27A422566F70FEB054D4E383</string>
+			<key>remoteInfo</key>
+			<string>Pods-Tests-MAFActionSheetController</string>
 		</dict>
-		<key>F8D7172C4667D7D0789C33FF</key>
+		<key>F893B0858C0C80B59BB23A37</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MAFOverlayPresentationLayoutAttributes.m</string>
+			<key>path</key>
+			<string>Pod/Classes/MAFOverlayPresentationLayoutAttributes.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FB5EE0B5C80643E814CFCA6D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>68F995118089B63B4CE13D99</string>
+			<key>buildPhases</key>
+			<array>
+				<string>1243C95736D825D185E766AE</string>
+				<string>3B93145EDA36A139512B6FAA</string>
+				<string>4B2016A15DE063E54A4687B7</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-MAFActionSheetController-MAFOverlay</string>
+			<key>productName</key>
+			<string>Pods-MAFActionSheetController-MAFOverlay</string>
+			<key>productReference</key>
+			<string>D42B4618E5975765377A3F92</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>FBF397912582A5CAF681DE6B</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>E07E8EA222160AD93D9ED9C6</string>
+			<string>7AE4D29392E4564AA76DE909</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -2713,37 +2742,8 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>F9A5A78AEE567FCE5E40B079</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MAFActionSheetController-MAFOverlay-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD6A661854E11571552BAFA4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>65900BCAC6822938D36BA81F</string>
-				<string>A1C3216DCEAF4F17D2B1FDE8</string>
-				<string>4824CE49C52804BE4ACB78B8</string>
-				<string>8C172655F34432B46B8B25F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>82811CCD2D5E241814F1D20F</string>
+	<string>12CDB5F9E82B8D84F2F4569E</string>
 </dict>
 </plist>

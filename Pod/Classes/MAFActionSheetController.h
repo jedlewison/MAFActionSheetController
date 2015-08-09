@@ -96,4 +96,8 @@ The action sheet controller's overlay presentation coordinator, which manages it
 /** The color separating footer and header content from the items. Set to clear for no color. Default black with 35% opacity. */
 @property (nonatomic) UIColor *footerHeaderSeparatorColor;
 
+@property (nonatomic) BOOL actionSheetControllerPrefersStatusBarHidden;
+@property (nonatomic) BOOL actionSheetControllerModalPresentationCapturesStatusBarAppearance;
+
+
 @end

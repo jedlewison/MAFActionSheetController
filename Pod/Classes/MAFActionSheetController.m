@@ -75,7 +75,7 @@
 }
 
 -(void)viewWillLayoutSubviews {
-    
+
     [_tableView setScrollEnabled:(self.computedPreferredContentSize.height - self.headerHeight - self.footerHeight) > _tableView.frame.size.height+1.f];
     [_tableView setBounces:[_tableView isScrollEnabled]];
     [self.view sendSubviewToBack:_tableView];
@@ -96,19 +96,19 @@
         NSLog(@"cannot add item to presented controller");
         return;
     }
-    
+
     if (actionSheetItem.cancellationHandler) {
         self.cancellationItem = actionSheetItem;
         return;
     }
-    
+
     [self.mutableActionSheetItems addObject:actionSheetItem];
     _actionSheetItems = [NSArray arrayWithArray:self.mutableActionSheetItems];
-    
+
     if (actionSheetItem.title) {
         actionSheetItem.attributedTitle = [[NSAttributedString alloc] initWithString:actionSheetItem.title attributes:self.titleLabelAttributes];
     }
-    
+
     if (actionSheetItem.detailText) {
         actionSheetItem.attributedDetailText = [[NSAttributedString alloc] initWithString:actionSheetItem.detailText attributes:self.detailTextlabelAttributes];
     }
@@ -133,8 +133,8 @@
         NSMutableParagraphStyle *paragraphStyle = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
         paragraphStyle.alignment = NSTextAlignmentCenter;
         _detailTextlabelAttributes = @{ NSFontAttributeName: [UIFont systemFontOfSize:16.f],
-                                   NSParagraphStyleAttributeName: paragraphStyle,
-                                   NSForegroundColorAttributeName: [UIColor colorWithWhite:0.2f alpha:1.f]};
+                                        NSParagraphStyleAttributeName: paragraphStyle,
+                                        NSForegroundColorAttributeName: [UIColor colorWithWhite:0.2f alpha:1.f]};
     }
     return _detailTextlabelAttributes;
 }
@@ -152,17 +152,17 @@
 -(CGSize)preferredContentSize
 {
     if (CGSizeEqualToSize(CGSizeZero, self.computedPreferredContentSize)) {
-        
+
         CGSize preferredContentSize = CGSizeZero;
-        
+
         for (MAFActionSheetItem *item in self.actionSheetItems) {
             preferredContentSize.width = MAX(preferredContentSize.width, item.preferredSize.width);
             preferredContentSize.height += item.preferredSize.height;
         }
-        
+
         preferredContentSize.height += self.headerHeight;
         preferredContentSize.height += self.footerHeight;
-        
+
         if (!self.footerView) {
             preferredContentSize.height -= 1.f/[UIScreen mainScreen].scale; // hide the bottom separator
         }
@@ -207,7 +207,7 @@
             }
         }
     }];
-    
+
     if ([self itemHandlerTiming] == MAFActionSheetItemHandlerTimingBeforeStartingDismissal) {
         if (optionAction.actionHandler) {
             optionAction.actionHandler();
@@ -271,7 +271,7 @@
     } else {
         [self.footerContainerView setBackgroundColor:[UIColor whiteColor]];
     }
-    
+
     CGRect headerSeparatorFrame = self.headerContainerView.frame;
     headerSeparatorFrame.size.height = 1.f/[UIScreen mainScreen].scale;
     if (![UIPresentationController class]) {
@@ -317,7 +317,7 @@
     [tableView setBackgroundColor:[UIColor clearColor]];
     [self.view addSubview:tableView];
     self.tableView = tableView;
-    
+
     [self.tableView reloadData];
     [self.view addSubview:self.headerContainerView];
     [self.view addSubview:self.footerContainerView];
@@ -329,9 +329,9 @@
 }
 
 - (void)updateHeaderFooterPositionWithScrollView:(UIScrollView *)scrollView {
-    
+
     UIEdgeInsets scrollIndicatorInsets = scrollView.scrollIndicatorInsets;
-    
+
     if (scrollView.contentOffset.y <= 0) {
         self.headerContainerView.frame = (CGRect){CGPointZero,self.tableView.frame.size.width,self.headerHeight + (scrollView.contentOffset.y * -1.f)};
         scrollIndicatorInsets.top = CGRectGetMaxY(self.headerContainerView.frame)-self.headerHeight;
@@ -343,9 +343,9 @@
         footerContainerFrame.size.height += 1.f;
         self.footerContainerView.frame = footerContainerFrame;
         scrollIndicatorInsets.bottom = CGRectGetMaxY(self.tableView.frame)-self.footerContainerView.frame.origin.y;
-        
+
     }
-        scrollView.scrollIndicatorInsets = scrollIndicatorInsets;
+    scrollView.scrollIndicatorInsets = scrollIndicatorInsets;
 }
 
 -(UIColor *)footerHeaderSeparatorColor {
@@ -355,4 +355,11 @@
     return _footerHeaderSeparatorColor;
 }
 
+- (BOOL)prefersStatusBarHidden {
+    return self.actionSheetControllerPrefersStatusBarHidden;
+}
+
+- (BOOL)modalPresentationCapturesStatusBarAppearance {
+    return self.actionSheetControllerModalPresentationCapturesStatusBarAppearance;
+}
 @end

@@ -97,7 +97,5 @@ The action sheet controller's overlay presentation coordinator, which manages it
 @property (nonatomic) UIColor *footerHeaderSeparatorColor;
 
 @property (nonatomic) BOOL actionSheetControllerPrefersStatusBarHidden;
-@property (nonatomic) BOOL actionSheetControllerModalPresentationCapturesStatusBarAppearance;
-
 
 @end

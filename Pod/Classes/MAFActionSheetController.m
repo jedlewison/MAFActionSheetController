@@ -56,11 +56,12 @@
 
 +(instancetype)actionSheetControllerWithHeaderView:(UIView *)headerView footerView:(UIView *)footerView
 {
-    MAFActionSheetController *actionSheetController = [[MAFActionSheetController alloc] init];
+    MAFActionSheetController *actionSheetController = [[self alloc] init];
     actionSheetController.headerView = headerView;
     actionSheetController.footerView = footerView;
     actionSheetController.headerHeight = headerView.frame.size.height;
     actionSheetController.footerHeight = footerView.frame.size.height;
+    actionSheetController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     actionSheetController.overlayPresentationCoordinator = [MAFOverlayPresentationCoordinator overlayPresentationCoordinatorWithPresentedViewController:actionSheetController];
     return actionSheetController;
 }
@@ -70,9 +71,6 @@
     self.overlayPresentationCoordinator = [MAFOverlayPresentationCoordinator overlayPresentationCoordinatorWithPresentedViewController:self];
 }
 
--(UIModalTransitionStyle)modalTransitionStyle {
-    return UIModalTransitionStyleCrossDissolve;
-}
 
 -(void)viewWillLayoutSubviews {
 
@@ -359,7 +357,4 @@
     return self.actionSheetControllerPrefersStatusBarHidden;
 }
 
-- (BOOL)modalPresentationCapturesStatusBarAppearance {
-    return self.actionSheetControllerModalPresentationCapturesStatusBarAppearance;
-}
 @end
